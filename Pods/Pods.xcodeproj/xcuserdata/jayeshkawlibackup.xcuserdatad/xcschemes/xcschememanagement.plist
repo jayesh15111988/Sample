@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-JKCustomLoader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JKSecretAnimatingLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JKSexyOptionsOpener.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SAMTextView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1A8A74E132EB0EB10080F5C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E5B389FE385F90C1D37E60B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5B264DC290C01EEB0EBC91E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2CDA8B61D5CC3058580C7EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC2C85AB8312209AFA8F49AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+../../../JKSexyOptionsOpener/JKSexyOptionsOpener/Classes/JKAnimatedOptionsOpenerView.h

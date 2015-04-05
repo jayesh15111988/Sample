@@ -1,0 +1,4 @@
+pod 'SAMTextView'
+pod 'JKSecretAnimatingLabel', :git => 'git@github.com:jayesh15111988/JKSecretAnimatingLabel.git' , :branch => 'master'
+pod 'JKCustomLoader', :git => 'git@github.com:jayesh15111988/JKCustomLoader.git' , :branch => 'master'
+pod 'JKSexyOptionsOpener', :git => 'https://github.com/jayesh15111988/JKSexyOptionsOpener', :branch => 'master'

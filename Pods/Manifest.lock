@@ -1,0 +1,41 @@
+PODS:
+  - JKCustomLoader (1.0)
+  - JKSecretAnimatingLabel (1.0)
+  - JKSexyOptionsOpener (0.2.0)
+  - SAMTextView (0.2.2)
+
+DEPENDENCIES:
+  - JKCustomLoader (from `git@github.com:jayesh15111988/JKCustomLoader.git`, branch `master`)
+  - JKSecretAnimatingLabel (from `git@github.com:jayesh15111988/JKSecretAnimatingLabel.git`, branch `master`)
+  - JKSexyOptionsOpener (from `https://github.com/jayesh15111988/JKSexyOptionsOpener`, branch `master`)
+  - SAMTextView
+
+EXTERNAL SOURCES:
+  JKCustomLoader:
+    :branch: master
+    :git: git@github.com:jayesh15111988/JKCustomLoader.git
+  JKSecretAnimatingLabel:
+    :branch: master
+    :git: git@github.com:jayesh15111988/JKSecretAnimatingLabel.git
+  JKSexyOptionsOpener:
+    :branch: master
+    :git: https://github.com/jayesh15111988/JKSexyOptionsOpener
+
+CHECKOUT OPTIONS:
+  JKCustomLoader:
+    :commit: 64033a29c7a6ca5ea8ef9cd40b4bbb4f78667ed8
+    :git: git@github.com:jayesh15111988/JKCustomLoader.git
+  JKSecretAnimatingLabel:
+    :commit: f318e511acfe0766bbaf346d6bd4582d83106f05
+    :git: git@github.com:jayesh15111988/JKSecretAnimatingLabel.git
+  JKSexyOptionsOpener:
+    :commit: 586b6388f1d32e0890763e5ca7c79514856ac2cb
+    :git: https://github.com/jayesh15111988/JKSexyOptionsOpener
+
+SPEC CHECKSUMS:
+  JKCustomLoader: 037ad3041f959d87467ecce539e809452a82ef03
+  JKSecretAnimatingLabel: 1a9f04e12c3cd280ff0d9b608d61dfd99a5e5074
+  JKSexyOptionsOpener: b62546efb562447a7e10578b39cc32737f488c76
+  SAMTextView: c37f114b5bbf3260d804453aa9614b721714646e
+
+COCOAPODS: 0.35.0

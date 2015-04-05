@@ -1,0 +1,1 @@
+../../../JKSecretAnimatingLabel/JKSecretAnimatingLabel/Classes/JKSecretAnimatingLabel.h
