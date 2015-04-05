@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-BlocksKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JKCustomLoader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A8A74E132EB0EB10080F5C5</key>
+		<key>76B59D703907EA0B02686BDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2E5B389FE385F90C1D37E60B</key>
+		<key>97841F66D631CFC763D05A14</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5B264DC290C01EEB0EBC91E</key>
+		<key>98169609A6C0A705D56C0BEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E2CDA8B61D5CC3058580C7EC</key>
+		<key>A7E6D38B32258649953C3F46</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EC2C85AB8312209AFA8F49AB</key>
+		<key>BF17013E71F7DD1A69143467</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E19458D5CA87214F9E984AED</key>
 		<dict>
 			<key>primary</key>
 			<true/>

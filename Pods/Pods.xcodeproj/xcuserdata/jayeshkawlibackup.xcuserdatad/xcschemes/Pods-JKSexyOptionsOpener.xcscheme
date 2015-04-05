@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A8A74E132EB0EB10080F5C5"
+               BlueprintIdentifier = "98169609A6C0A705D56C0BEB"
                BuildableName = "libPods-JKSexyOptionsOpener.a"
                BlueprintName = "Pods-JKSexyOptionsOpener"
                ReferencedContainer = "container:Pods.xcodeproj">

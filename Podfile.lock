@@ -1,13 +1,32 @@
 PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - JKCustomLoader (1.0)
   - JKSecretAnimatingLabel (1.0)
   - JKSexyOptionsOpener (0.2.0)
   - SAMTextView (0.2.2)
 
 DEPENDENCIES:
-  - JKCustomLoader (from `git@github.com:jayesh15111988/JKCustomLoader.git`, branch `master`)
-  - JKSecretAnimatingLabel (from `git@github.com:jayesh15111988/JKSecretAnimatingLabel.git`, branch `master`)
-  - JKSexyOptionsOpener (from `https://github.com/jayesh15111988/JKSexyOptionsOpener`, branch `master`)
+  - BlocksKit (~> 2.2)
+  - JKCustomLoader (from `git@github.com:jayesh15111988/JKCustomLoader.git`, branch
+    `master`)
+  - JKSecretAnimatingLabel (from `git@github.com:jayesh15111988/JKSecretAnimatingLabel.git`,
+    branch `master`)
+  - JKSexyOptionsOpener (from `https://github.com/jayesh15111988/JKSexyOptionsOpener`,
+    branch `master`)
   - SAMTextView
 
 EXTERNAL SOURCES:
@@ -33,9 +52,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/jayesh15111988/JKSexyOptionsOpener
 
 SPEC CHECKSUMS:
-  JKCustomLoader: 037ad3041f959d87467ecce539e809452a82ef03
-  JKSecretAnimatingLabel: 1a9f04e12c3cd280ff0d9b608d61dfd99a5e5074
-  JKSexyOptionsOpener: b62546efb562447a7e10578b39cc32737f488c76
-  SAMTextView: c37f114b5bbf3260d804453aa9614b721714646e
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  JKCustomLoader: 62a1463ada06093e1d4accbecf21ad2e3f507308
+  JKSecretAnimatingLabel: 8a902dd9c5ff9f4bbd67d1c07061e7d7dfd876f9
+  JKSexyOptionsOpener: ce2dd62a9edfe90fe87d5e4bf5a0bc779c826f1e
+  SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.3

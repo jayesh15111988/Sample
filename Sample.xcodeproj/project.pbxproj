@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		38332BA21AD100440009E402 /* plane1.png in Resources */ = {isa = PBXBuildFile; fileRef = 38332BA11AD100440009E402 /* plane1.png */; };
 		38332BA41AD1006C0009E402 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 38332BA31AD1006C0009E402 /* plane.png */; };
+		38332BAE1AD1FD890009E402 /* ALTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38332BAD1AD1FD890009E402 /* ALTestViewController.m */; };
 		3840D6DE1AA281DE0087B006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3840D6DD1AA281DE0087B006 /* main.m */; };
 		3840D6E11AA281DE0087B006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3840D6E01AA281DE0087B006 /* AppDelegate.m */; };
 		3840D6E41AA281DE0087B006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3840D6E31AA281DE0087B006 /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		38332BA11AD100440009E402 /* plane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane1.png; sourceTree = "<group>"; };
 		38332BA31AD1006C0009E402 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		38332BAC1AD1FD890009E402 /* ALTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTestViewController.h; sourceTree = "<group>"; };
+		38332BAD1AD1FD890009E402 /* ALTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTestViewController.m; sourceTree = "<group>"; };
 		3840D6D81AA281DE0087B006 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3840D6DC1AA281DE0087B006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3840D6DD1AA281DE0087B006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38332BAB1AD1FD790009E402 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				38332BAC1AD1FD890009E402 /* ALTestViewController.h */,
+				38332BAD1AD1FD890009E402 /* ALTestViewController.m */,
+			);
+			name = AutoLayout;
+			sourceTree = "<group>";
+		};
 		3840D6CF1AA281DE0087B006 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +125,7 @@
 		3840D6DA1AA281DE0087B006 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				38332BAB1AD1FD790009E402 /* AutoLayout */,
 				3840D6DF1AA281DE0087B006 /* AppDelegate.h */,
 				3840D6E01AA281DE0087B006 /* AppDelegate.m */,
 				387395801AC7392100B60872 /* OSU.jpg */,
@@ -325,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38332BAE1AD1FD890009E402 /* ALTestViewController.m in Sources */,
 				3840D6E41AA281DE0087B006 /* ViewController.m in Sources */,
 				38C89A391ABA620800A0502C /* CustomView.m in Sources */,
 				3840D6E11AA281DE0087B006 /* AppDelegate.m in Sources */,

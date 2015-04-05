@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E2CDA8B61D5CC3058580C7EC"
+               BlueprintIdentifier = "A7E6D38B32258649953C3F46"
                BuildableName = "libPods-JKCustomLoader.a"
                BlueprintName = "Pods-JKCustomLoader"
                ReferencedContainer = "container:Pods.xcodeproj">

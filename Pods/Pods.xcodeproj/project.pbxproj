@@ -1,2248 +1,1303 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00C463FC7AC24D6C1B06F00F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>72189183C86F366B651322E0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EC2C85AB8312209AFA8F49AB</string>
-			<key>remoteInfo</key>
-			<string>Pods-JKSecretAnimatingLabel</string>
-		</dict>
-		<key>0328735179A3EC89AEE90287</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D1A2B9690C94220DDE573AB1</string>
-				<string>E6EBFDF9A82E9B6763988AA3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0400B999E09D96B27C55355F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-JKSexyOptionsOpener</string>
-			<key>target</key>
-			<string>1A8A74E132EB0EB10080F5C5</string>
-			<key>targetProxy</key>
-			<string>A095CCA66982C7F6CAF0DE34</string>
-		</dict>
-		<key>051F3A5E8B7EAA1865861F68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DB6E248319820892A57F424</string>
-				<string>8E7076F1CE839AD0B67E9A44</string>
-				<string>6C01E17B921AA393B409200E</string>
-				<string>62165BCF7D8CF7327351510A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-JKSecretAnimatingLabel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05EA7F0FD9AE5B9A0BF709ED</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>80FA884B27DB9486EA5D2FC3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SAMTextView/Pods-SAMTextView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0925581AA7A00CB70DFD6677</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>57E1611667861BD0EFA5B007</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JKCustomLoader/Pods-JKCustomLoader-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0AC54CEC16FC413D6EB3F69A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CC62625EBCB4DFE9A3BB0ECB</string>
-				<string>142A06E1B5E46E6047135731</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0B70FCDD343519202D19E802</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JKAnimatedOptionsOpenerView.h</string>
-			<key>path</key>
-			<string>JKSexyOptionsOpener/Classes/JKAnimatedOptionsOpenerView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CB6BC9155BA2AEBF85A2C5A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-JKSecretAnimatingLabel.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>12D67238049569AA659ACDB6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>142A06E1B5E46E6047135731</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C01E17B921AA393B409200E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>17BB355EFA32F50294D4252F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JKSecretAnimatingLabel.h</string>
-			<key>path</key>
-			<string>JKSecretAnimatingLabel/Classes/JKSecretAnimatingLabel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>180947F28D455B3760BC3141</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>492F9500F240C7FB80DB2D5D</string>
-				<string>57E1611667861BD0EFA5B007</string>
-				<string>3D76376490BD0A8646040973</string>
-				<string>C56D3CE792F5D1CD508952AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-JKCustomLoader</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A8A74E132EB0EB10080F5C5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A34B24567BF5014A44E3284F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>40E4D9010E905594BC86D89D</string>
-				<string>67A2857F603AA00293724524</string>
-				<string>1ECD4816C622CEA7E2331E6B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JKSexyOptionsOpener</string>
-			<key>productName</key>
-			<string>Pods-JKSexyOptionsOpener</string>
-			<key>productReference</key>
-			<string>9BB30989F0EBAB62EE50AA10</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>1C33BBCD5C4453CF7475E2D0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9132A99E8D0B8E9201A5414E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D5DECA3BED9FABF23D3D38A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>25668B3C49E10C05FD2D1193</string>
-				<string>6F4AD47195A6CFC3021C5789</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1D6FDA2249E9C60D450D18F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CustomSexyButton.h</string>
-			<key>path</key>
-			<string>JKSexyOptionsOpener/Classes/CustomSexyButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1ECD4816C622CEA7E2331E6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6F94ED2EDE973E2E6DE201B8</string>
-				<string>4A3A2CD0C4E35619544910E8</string>
-				<string>DA40BF2C03F3FD65E18E87BC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>210B4C76E3928AEEB1FFCA64</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JKSecretAnimatingLabel.m</string>
-			<key>path</key>
-			<string>JKSecretAnimatingLabel/Classes/JKSecretAnimatingLabel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>213AB609F9CAFA3377064339</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CFD7978B9C74142E4A09AF80</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>23B4B09AAD0A379669F9632F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4084DD5088720AE8B83673CD</string>
-				<string>CF5A8E3A4F760E51906C8268</string>
-				<string>CC4E008CD877C21ABCB9341A</string>
-				<string>39DBC97FFAAD91675E3E08F4</string>
-				<string>E7DBC506E136ABF7823F8E9A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>254D77676BEE1C170CD9EB21</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F87867C584177A2AB023642A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>25668B3C49E10C05FD2D1193</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2BF55A175F83ECE49682D4EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JKCustomLoader.h</string>
-			<key>path</key>
-			<string>JKCustomLoader/Classes/JKCustomLoader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D7321948FFED8B01D8627B1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-JKCustomLoader.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2E5B389FE385F90C1D37E60B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D6CB3651A68F6098EC4242F0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CB7CD16FFBA5E2E9FDBA40C7</string>
-				<string>6DE45F134835DBC901D952C2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>67F8C15A33D0B298B4F04AC5</string>
-				<string>8EFBCA5130704603BB998195</string>
-				<string>0400B999E09D96B27C55355F</string>
-				<string>41EB0915C736B884F6760E81</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>E10B0EE9A1D35567166FDCFB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>39DBC97FFAAD91675E3E08F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E10B0EE9A1D35567166FDCFB</string>
-				<string>2D7321948FFED8B01D8627B1</string>
-				<string>0CB6BC9155BA2AEBF85A2C5A</string>
-				<string>9BB30989F0EBAB62EE50AA10</string>
-				<string>F2ABCF21CD40637EB9B4CF0B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B2628496D69F7B5D448F80E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D76376490BD0A8646040973</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-JKCustomLoader-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F8C2FE55D4840811AA817F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JKAnimatedOptionsOpenerView.m</string>
-			<key>path</key>
-			<string>JKSexyOptionsOpener/Classes/JKAnimatedOptionsOpenerView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F8C9F110D166FBDD2D7CB56</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>63FC453A1D50F1481C52DF59</string>
-				<string>0925581AA7A00CB70DFD6677</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3FD72B7EBDC17B40E1E0F48B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D91606B1AD164C22F2DBAE98</string>
-				<string>9132A99E8D0B8E9201A5414E</string>
-				<string>A1C01B8164127F2BD5C73B74</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4084DD5088720AE8B83673CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>40E4D9010E905594BC86D89D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C048C7EE538B17648F588814</string>
-				<string>D2273FA4ACAFC052F96D3FAA</string>
-				<string>B6622A8B3ABF3FA0E71C37B3</string>
-				<string>CAE0C24082CFA25413FA6EDB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>41EB0915C736B884F6760E81</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-SAMTextView</string>
-			<key>target</key>
-			<string>A5B264DC290C01EEB0EBC91E</string>
-			<key>targetProxy</key>
-			<string>D2D408756A8934F4E06B523E</string>
-		</dict>
-		<key>4626225971ABAD19AFF4A8FF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F6708F59ACC94FAD078BD1D9</string>
-				<string>1C33BBCD5C4453CF7475E2D0</string>
-				<string>5E93B3C5617A473707FAB76F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>492F9500F240C7FB80DB2D5D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JKCustomLoader.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A3A2CD0C4E35619544910E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0B70FCDD343519202D19E802</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DDC411C1E83B7FE41865238</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DB2CEF3D58FAB6A117F7A520</string>
-				<string>213AB609F9CAFA3377064339</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5041464D024E8DC0AE80BE20</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>72189183C86F366B651322E0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E2CDA8B61D5CC3058580C7EC</string>
-			<key>remoteInfo</key>
-			<string>Pods-JKCustomLoader</string>
-		</dict>
-		<key>53B8E75CBEFFD28C6FF70704</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JKBezierStarDrawer.m</string>
-			<key>path</key>
-			<string>JKCustomLoader/Classes/JKBezierStarDrawer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57E1611667861BD0EFA5B007</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JKCustomLoader-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58583C312343B4D6599B7F6A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>17BB355EFA32F50294D4252F</string>
-				<string>210B4C76E3928AEEB1FFCA64</string>
-				<string>051F3A5E8B7EAA1865861F68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JKSecretAnimatingLabel</string>
-			<key>path</key>
-			<string>JKSecretAnimatingLabel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58CB5B98382537B8E58950A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D76376490BD0A8646040973</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A4E10089B49021E58D7C72A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6F68A3390348A25ABF8F4A72</string>
-				<string>A40ED77D93D666046BE9E23E</string>
-				<string>58CB5B98382537B8E58950A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E93B3C5617A473707FAB76F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A1C01B8164127F2BD5C73B74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5F10EED468987B91B368104D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>922AAF7AC4819CFDEFE3D25B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5F9572F7CA07D9CE6D15567B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>80FA884B27DB9486EA5D2FC3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SAMTextView/Pods-SAMTextView-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>62165BCF7D8CF7327351510A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-JKSecretAnimatingLabel-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63FC453A1D50F1481C52DF59</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>57E1611667861BD0EFA5B007</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JKCustomLoader/Pods-JKCustomLoader-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>67A2857F603AA00293724524</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E59C09EFE4E3876D2D520B87</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67F8C15A33D0B298B4F04AC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-JKCustomLoader</string>
-			<key>target</key>
-			<string>E2CDA8B61D5CC3058580C7EC</string>
-			<key>targetProxy</key>
-			<string>5041464D024E8DC0AE80BE20</string>
-		</dict>
-		<key>681056207C9CF01F6E9C1481</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SAMTextView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6B15BCE2B626B70489B22572</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JKBezierStarDrawer.h</string>
-			<key>path</key>
-			<string>JKCustomLoader/Classes/JKBezierStarDrawer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C01E17B921AA393B409200E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-JKSecretAnimatingLabel-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DE45F134835DBC901D952C2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C586E3FF06A80258632D3593</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6F4AD47195A6CFC3021C5789</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6F68A3390348A25ABF8F4A72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53B8E75CBEFFD28C6FF70704</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F94ED2EDE973E2E6DE201B8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D6FDA2249E9C60D450D18F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6FCAE9944EA34A3404D30BDD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7A4475B849D93695253BE2F6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JKSexyOptionsOpener/Pods-JKSexyOptionsOpener-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>72189183C86F366B651322E0</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>1D5DECA3BED9FABF23D3D38A</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>23B4B09AAD0A379669F9632F</string>
-			<key>productRefGroup</key>
-			<string>39DBC97FFAAD91675E3E08F4</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>2E5B389FE385F90C1D37E60B</string>
-				<string>E2CDA8B61D5CC3058580C7EC</string>
-				<string>EC2C85AB8312209AFA8F49AB</string>
-				<string>1A8A74E132EB0EB10080F5C5</string>
-				<string>A5B264DC290C01EEB0EBC91E</string>
-			</array>
-		</dict>
-		<key>73B3109A82DA2639AFED1517</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A503E077BE3C2ED3D1B0244C</string>
-				<string>EF505D3D57940EC18CB3B230</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>773F7CCE34B23E5874A4DFA7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAMTextView.h</string>
-			<key>path</key>
-			<string>SAMTextView/SAMTextView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A4475B849D93695253BE2F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JKSexyOptionsOpener-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80FA884B27DB9486EA5D2FC3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SAMTextView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81436C1333382C3DED4C6076</key>
-		<dict>
-			<key>fileRef</key>
-			<string>88AAB115278C7555F0C9DB4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>817FA93713AB29A2332A5625</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1D6FDA2249E9C60D450D18F1</string>
-				<string>D59691BF2040C7BFA5CED443</string>
-				<string>0B70FCDD343519202D19E802</string>
-				<string>3F8C2FE55D4840811AA817F7</string>
-				<string>AE856B420E97D48E18F36436</string>
-				<string>B204AD2BE61678E4AC199C79</string>
-				<string>AB5F567D5C3D89BF3C4EAD89</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JKSexyOptionsOpener</string>
-			<key>path</key>
-			<string>JKSexyOptionsOpener</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>879743B7CEACC9679FC87348</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88AAB115278C7555F0C9DB4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DB6E248319820892A57F424</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JKSecretAnimatingLabel.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E7076F1CE839AD0B67E9A44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JKSecretAnimatingLabel-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EFBCA5130704603BB998195</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-JKSecretAnimatingLabel</string>
-			<key>target</key>
-			<string>EC2C85AB8312209AFA8F49AB</string>
-			<key>targetProxy</key>
-			<string>00C463FC7AC24D6C1B06F00F</string>
-		</dict>
-		<key>9132A99E8D0B8E9201A5414E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>922AAF7AC4819CFDEFE3D25B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9132A99E8D0B8E9201A5414E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9BB30989F0EBAB62EE50AA10</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-JKSexyOptionsOpener.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9FF4452FACE4FECBF214C684</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A095CCA66982C7F6CAF0DE34</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>72189183C86F366B651322E0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1A8A74E132EB0EB10080F5C5</string>
-			<key>remoteInfo</key>
-			<string>Pods-JKSexyOptionsOpener</string>
-		</dict>
-		<key>A1ABA5A949CE6BE09C4322C5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C330733745CA602DBBFE4A25</string>
-				<string>80FA884B27DB9486EA5D2FC3</string>
-				<string>AC3FFDE72942DB9365D58A5F</string>
-				<string>681056207C9CF01F6E9C1481</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-SAMTextView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1C01B8164127F2BD5C73B74</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A34B24567BF5014A44E3284F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B866CF382FB843E95F6E4F7F</string>
-				<string>6FCAE9944EA34A3404D30BDD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A40ED77D93D666046BE9E23E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFE7752C5B943FEF657D735F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A503E077BE3C2ED3D1B0244C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6B15BCE2B626B70489B22572</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A5B264DC290C01EEB0EBC91E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F1F4319D7E4B2E7E3247499B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4DDC411C1E83B7FE41865238</string>
-				<string>4626225971ABAD19AFF4A8FF</string>
-				<string>F8EBA08F1DC814DDEFE36D0A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SAMTextView</string>
-			<key>productName</key>
-			<string>Pods-SAMTextView</string>
-			<key>productReference</key>
-			<string>F2ABCF21CD40637EB9B4CF0B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>AB5F567D5C3D89BF3C4EAD89</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F00DAFB8F23CD17BB0674594</string>
-				<string>7A4475B849D93695253BE2F6</string>
-				<string>C54E842DEE15CB09580FFC60</string>
-				<string>D5C5ACCF4D3583D849FA33BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-JKSexyOptionsOpener</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC3FFDE72942DB9365D58A5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SAMTextView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE856B420E97D48E18F36436</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JKOption.h</string>
-			<key>path</key>
-			<string>JKSexyOptionsOpener/Classes/JKOption.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B204AD2BE61678E4AC199C79</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JKOption.m</string>
-			<key>path</key>
-			<string>JKSexyOptionsOpener/Classes/JKOption.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B42D6FBCB2FA6CA8291CB150</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7BCE1C3C03F642B398BD3FA</string>
-				<string>3B2628496D69F7B5D448F80E</string>
-				<string>88AAB115278C7555F0C9DB4C</string>
-				<string>9FF4452FACE4FECBF214C684</string>
-				<string>C0215137FCBD452971FC8340</string>
-				<string>879743B7CEACC9679FC87348</string>
-				<string>12D67238049569AA659ACDB6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6622A8B3ABF3FA0E71C37B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B204AD2BE61678E4AC199C79</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B866CF382FB843E95F6E4F7F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7A4475B849D93695253BE2F6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JKSexyOptionsOpener/Pods-JKSexyOptionsOpener-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C0215137FCBD452971FC8340</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C048C7EE538B17648F588814</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D59691BF2040C7BFA5CED443</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C29B53CA8111D0CD1D684C40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>17BB355EFA32F50294D4252F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C330733745CA602DBBFE4A25</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SAMTextView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C33C80EA293296E041CA4C6F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6B15BCE2B626B70489B22572</string>
-				<string>53B8E75CBEFFD28C6FF70704</string>
-				<string>2BF55A175F83ECE49682D4EF</string>
-				<string>FFE7752C5B943FEF657D735F</string>
-				<string>180947F28D455B3760BC3141</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JKCustomLoader</string>
-			<key>path</key>
-			<string>JKCustomLoader</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C421580043FA58DDFC7316C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>773F7CCE34B23E5874A4DFA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C54E842DEE15CB09580FFC60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-JKSexyOptionsOpener-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C56D3CE792F5D1CD508952AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-JKCustomLoader-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C586E3FF06A80258632D3593</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9132A99E8D0B8E9201A5414E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C58761A6B1815DC9A04C7B46</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C29B53CA8111D0CD1D684C40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CAE0C24082CFA25413FA6EDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C54E842DEE15CB09580FFC60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB7CD16FFBA5E2E9FDBA40C7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>81436C1333382C3DED4C6076</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CC4E008CD877C21ABCB9341A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C33C80EA293296E041CA4C6F</string>
-				<string>58583C312343B4D6599B7F6A</string>
-				<string>817FA93713AB29A2332A5625</string>
-				<string>D570836320879B2FA15B7A99</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CC62625EBCB4DFE9A3BB0ECB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>210B4C76E3928AEEB1FFCA64</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CF5A8E3A4F760E51906C8268</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3FD72B7EBDC17B40E1E0F48B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFD7978B9C74142E4A09AF80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAMTextView.m</string>
-			<key>path</key>
-			<string>SAMTextView/SAMTextView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1A2B9690C94220DDE573AB1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8E7076F1CE839AD0B67E9A44</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JKSecretAnimatingLabel/Pods-JKSecretAnimatingLabel-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D2273FA4ACAFC052F96D3FAA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F8C2FE55D4840811AA817F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D2D408756A8934F4E06B523E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>72189183C86F366B651322E0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A5B264DC290C01EEB0EBC91E</string>
-			<key>remoteInfo</key>
-			<string>Pods-SAMTextView</string>
-		</dict>
-		<key>D570836320879B2FA15B7A99</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>773F7CCE34B23E5874A4DFA7</string>
-				<string>CFD7978B9C74142E4A09AF80</string>
-				<string>A1ABA5A949CE6BE09C4322C5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SAMTextView</string>
-			<key>path</key>
-			<string>SAMTextView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D59691BF2040C7BFA5CED443</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CustomSexyButton.m</string>
-			<key>path</key>
-			<string>JKSexyOptionsOpener/Classes/CustomSexyButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5C5ACCF4D3583D849FA33BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-JKSexyOptionsOpener-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6CB3651A68F6098EC4242F0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E1403B3A4E09F4C4FF45377A</string>
-				<string>EE1EAF1A555042440765FA5E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D91606B1AD164C22F2DBAE98</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>DA40BF2C03F3FD65E18E87BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE856B420E97D48E18F36436</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB2CEF3D58FAB6A117F7A520</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AC3FFDE72942DB9365D58A5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E10B0EE9A1D35567166FDCFB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E1403B3A4E09F4C4FF45377A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>879743B7CEACC9679FC87348</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E2CDA8B61D5CC3058580C7EC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3F8C9F110D166FBDD2D7CB56</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5A4E10089B49021E58D7C72A</string>
-				<string>5F10EED468987B91B368104D</string>
-				<string>73B3109A82DA2639AFED1517</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JKCustomLoader</string>
-			<key>productName</key>
-			<string>Pods-JKCustomLoader</string>
-			<key>productReference</key>
-			<string>2D7321948FFED8B01D8627B1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>E59C09EFE4E3876D2D520B87</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9132A99E8D0B8E9201A5414E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E6EBFDF9A82E9B6763988AA3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8E7076F1CE839AD0B67E9A44</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JKSecretAnimatingLabel/Pods-JKSecretAnimatingLabel-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E7BCE1C3C03F642B398BD3FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7DBC506E136ABF7823F8E9A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B42D6FBCB2FA6CA8291CB150</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC2C85AB8312209AFA8F49AB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0328735179A3EC89AEE90287</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0AC54CEC16FC413D6EB3F69A</string>
-				<string>254D77676BEE1C170CD9EB21</string>
-				<string>C58761A6B1815DC9A04C7B46</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JKSecretAnimatingLabel</string>
-			<key>productName</key>
-			<string>Pods-JKSecretAnimatingLabel</string>
-			<key>productReference</key>
-			<string>0CB6BC9155BA2AEBF85A2C5A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>EE1EAF1A555042440765FA5E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>12D67238049569AA659ACDB6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EF505D3D57940EC18CB3B230</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2BF55A175F83ECE49682D4EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F00DAFB8F23CD17BB0674594</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JKSexyOptionsOpener.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1F4319D7E4B2E7E3247499B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>05EA7F0FD9AE5B9A0BF709ED</string>
-				<string>5F9572F7CA07D9CE6D15567B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F2ABCF21CD40637EB9B4CF0B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-SAMTextView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F6708F59ACC94FAD078BD1D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D91606B1AD164C22F2DBAE98</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F87867C584177A2AB023642A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9132A99E8D0B8E9201A5414E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8EBA08F1DC814DDEFE36D0A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C421580043FA58DDFC7316C3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FFE7752C5B943FEF657D735F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JKCustomLoader.m</string>
-			<key>path</key>
-			<string>JKCustomLoader/Classes/JKCustomLoader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>72189183C86F366B651322E0</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042124D59D86720D375116B7 /* Pods-JKSecretAnimatingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CACA4ABEB459CAF8995E77A7 /* Pods-JKSecretAnimatingLabel-dummy.m */; };
+		04E01FB7F36D097BE6A4B07B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C00D06DED8554911FD427 /* UIKit.framework */; };
+		072AC4682C6DA8ECE9C79380 /* UITextField+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA4F826D4CE126F5F7A712 /* UITextField+BlocksKit.m */; };
+		088DB94DC908253156131106 /* NSMutableIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B26810516B316EA89921C2E /* NSMutableIndexSet+BlocksKit.h */; };
+		09F0566ECD472389873C7E87 /* NSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2714CDDB418EF94DB6417 /* NSObject+A2DynamicDelegate.m */; };
+		13EB2AC8A420C9B0E4E4D2B6 /* JKOption.h in Headers */ = {isa = PBXBuildFile; fileRef = A60E590F90AA2A639849422A /* JKOption.h */; };
+		141A204A50530C4BD67A8CD8 /* A2BlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6869E75804CD2AE28DA92BA3 /* A2BlockInvocation.h */; };
+		188A7B6C9D378F0261129978 /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F1316A1369D8D5684BA610 /* UIGestureRecognizer+BlocksKit.m */; };
+		1C7AC08EF034697C38D70B16 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 12740E3B9D6F8B72C094A972 /* NSArray+BlocksKit.h */; };
+		24BE39937FEC2F94218694A6 /* NSObject+BKBlockExecution.h in Headers */ = {isa = PBXBuildFile; fileRef = 3719788D6E787B282ADA130A /* NSObject+BKBlockExecution.h */; };
+		26A3FB7832645C4B58BB437D /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB6FF3593CB91E48686EAFC /* UIBarButtonItem+BlocksKit.h */; };
+		2A54F1011E28096701E7143A /* UIImagePickerController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A7EAE088F24DB0EB997669 /* UIImagePickerController+BlocksKit.h */; };
+		2A88BE927479CE2A9D841FF0 /* JKBezierStarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1EACBE9A0356C6C396FD4 /* JKBezierStarDrawer.m */; };
+		2DB7D05687BED84C17A06F7D /* JKCustomLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221B17A209A29879F102ACF /* JKCustomLoader.m */; };
+		2F08C1F4D91ABCAB8F7B6191 /* UIPopoverController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE420BA34FD57E191C93D53 /* UIPopoverController+BlocksKit.h */; };
+		2FB349713E8C8E168BA07DFD /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A479F03760A7A81E8EDF57B /* NSArray+BlocksKit.m */; };
+		302D07E54E1E467ED9305941 /* SAMTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5A290E20601CEFE4EA8095 /* SAMTextView.h */; };
+		3215BF05353E4CAF64AC95FA /* Pods-JKCustomLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B6C6431019F6F9EDB525A /* Pods-JKCustomLoader-dummy.m */; };
+		329D76B42912D35222F9627A /* NSIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E049E889C92B4C16407D84 /* NSIndexSet+BlocksKit.h */; };
+		347D7E6029BC95EB0EEAEC62 /* NSObject+BKBlockExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F09C39743E6EE42DF44EBD /* NSObject+BKBlockExecution.m */; };
+		34D979E6CD61218BADB83AA9 /* NSTimer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 473FBA9757E98E758096203D /* NSTimer+BlocksKit.h */; };
+		4281830BADCFA126D2AFF269 /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B191B205231229539C0DC559 /* UIAlertView+BlocksKit.m */; };
+		42C2B506ABBA6ED05DD6E54F /* CustomSexyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6806836BF2BFBDD1BA6F42 /* CustomSexyButton.m */; };
+		44E00563BE7CD723848B5217 /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1164B16183CE6EA4EB41B2 /* NSDictionary+BlocksKit.m */; };
+		44EF8D9AF6CF52ACD9D3C9DB /* NSObject+BKBlockObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1920308669AE51E53836B6D4 /* NSObject+BKBlockObservation.h */; };
+		459ED1324F88CF2ABFC82E62 /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD835B829676B7A3C9CEC15 /* NSIndexSet+BlocksKit.m */; };
+		47B97E77D3CE9081AA9DF9CE /* JKSecretAnimatingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B83F5BFDBFB729BF32F3DC /* JKSecretAnimatingLabel.h */; };
+		485A91BFF892A60A5FB54A43 /* UIActionSheet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CC16589A882179CA51DA9556 /* UIActionSheet+BlocksKit.h */; };
+		48CE54469024EFDAE7B08989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E64F148AF6A9398B45DF77 /* Foundation.framework */; };
+		4BB2A2376086EB7F10D4A47E /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37758F0428661431A7011BD8 /* SAMTextView.m */; };
+		4C9977D16F2FE5F06E80F22D /* BlocksKit+MessageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 97270EDDFBBF7748D4F0F572 /* BlocksKit+MessageUI.h */; };
+		4CF86805121C16AF3907A0CA /* JKOption.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDDD700BFEFDC0B22EEDE8D /* JKOption.m */; };
+		4DF161EA75898CAB09673DE6 /* JKAnimatedOptionsOpenerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8DF3F635904E04D35AC7F8 /* JKAnimatedOptionsOpenerView.h */; };
+		551A3D9EBE5D32875D4FEC11 /* MFMailComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2BA99FEE50B1FECD7255F0 /* MFMailComposeViewController+BlocksKit.h */; };
+		55330A0E3FA7529049D8C6A9 /* UIImagePickerController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD15331FE8A3C71AF9A7675 /* UIImagePickerController+BlocksKit.m */; };
+		56B5912089B078317DBA0562 /* CustomSexyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5B0F379BA49C9D9A05D06F /* CustomSexyButton.h */; };
+		56EB3E213F741A102DB70CA5 /* UIView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 037387D32BE572B3C8AE7558 /* UIView+BlocksKit.h */; };
+		583EEE291A07E12983E97250 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8027E31E927142AC77ADE818 /* Pods-dummy.m */; };
+		59E310FD5863D470DDB16169 /* NSInvocation+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BBFCBCDD1AA98E3A25A5AE3 /* NSInvocation+BlocksKit.h */; };
+		5AFB97868D5FFDDB5D3424AB /* NSObject+BKBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF5408C2E47A35E5BA9390 /* NSObject+BKBlockObservation.m */; };
+		5DA0A84A66F7FDF48EFEA20B /* NSMutableSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8279A4D65F44BEB6543432F7 /* NSMutableSet+BlocksKit.h */; };
+		5E2A1A04F85BDFB4548EDF33 /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2BA4BC26C4C59C5BD794D /* UIPopoverController+BlocksKit.m */; };
+		63AF03271CB09A4515626987 /* A2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCFA0D1221DC3DF60928B6 /* A2BlockInvocation.m */; };
+		6B07FCFA35B1E51AA6303E5C /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 24443370245AFFB625226C46 /* BKMacros.h */; };
+		6E3A579683E1CD8DFD1B32C4 /* NSMutableArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D254FABE4AA7135C8047BB /* NSMutableArray+BlocksKit.m */; };
+		768CED68D945FD663FA42D70 /* JKCustomLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCAC95DDC0A583EE0C2A527 /* JKCustomLoader.h */; };
+		7733E75E0E009D55D5ED0374 /* NSCache+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0FB15D419163F8386838FA /* NSCache+BlocksKit.h */; };
+		78AD4D132E20542162331B02 /* MFMessageComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B1221EB9B63ACD174DED65F6 /* MFMessageComposeViewController+BlocksKit.h */; };
+		796A8740D7B2025E5E8B6D6F /* NSOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D8995B0AB182B6234182A0FA /* NSOrderedSet+BlocksKit.h */; };
+		7A60E5944742B61F46B8CB0F /* MFMailComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD1E58A4ACB53A378815BE /* MFMailComposeViewController+BlocksKit.m */; };
+		7BC8903CB23B75AC6B9BE015 /* NSOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E5C86765EB1A3144EC4DA /* NSOrderedSet+BlocksKit.m */; };
+		8053045D6AA6950E4F62A5F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E64F148AF6A9398B45DF77 /* Foundation.framework */; };
+		85F3AF04237FDF0479AC63F3 /* NSMutableDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1160082B0C75E21DD72416 /* NSMutableDictionary+BlocksKit.h */; };
+		8D40AE09D61608B5E972130E /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F545B8F571A6D896BB0CB8 /* UIBarButtonItem+BlocksKit.m */; };
+		8E8B537B64F41950A3AB4B78 /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438D6BE510EF31FB56E940A /* NSSet+BlocksKit.m */; };
+		8FA8E094DABE1DBDA7B89696 /* NSDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C731FC06E88CCEE59512A9 /* NSDictionary+BlocksKit.h */; };
+		922AB5F7D652A6C1C1B8740C /* JKAnimatedOptionsOpenerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7EB4366AB6B99709F2726D /* JKAnimatedOptionsOpenerView.m */; };
+		96CEB902B6443FDC767432F7 /* NSMutableOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCCC833F188D0544C0A37F /* NSMutableOrderedSet+BlocksKit.h */; };
+		970BC9D98C735FC187FFDC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E64F148AF6A9398B45DF77 /* Foundation.framework */; };
+		98C58EE65006025B8018966A /* Pods-BlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B66E49A42D4DE20663CF3170 /* Pods-BlocksKit-dummy.m */; };
+		9C131BBE59BEA4EBF30CDC4B /* UIGestureRecognizer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C30E58A9CBEF9ECA18CFC965 /* UIGestureRecognizer+BlocksKit.h */; };
+		9C8A5EC10B4CCF69A3F9DFBC /* UITextField+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 57ABB723BB5862FA5CB2FF83 /* UITextField+BlocksKit.h */; };
+		9F924972C1C952A24ECB4049 /* NSInvocation+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6C9113B2A35CF028029ECD /* NSInvocation+BlocksKit.m */; };
+		A1655A9F68E42AE5E69C25D3 /* JKBezierStarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5819C498DA8477727953CB /* JKBezierStarDrawer.h */; };
+		A1FBF38E22DFA47E67050798 /* NSMutableIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE228AD8E73979AC5A54742 /* NSMutableIndexSet+BlocksKit.m */; };
+		A2D4C53BF42F2BDE6517F02F /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6996FB3C417C6819B0BACA3F /* UIWebView+BlocksKit.h */; };
+		A477B6D8A8D80B2998374DF8 /* MFMessageComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EEEB6AB9F6F5AB92F559B9 /* MFMessageComposeViewController+BlocksKit.m */; };
+		A4A47676FB74DCC7CD1BA608 /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F09F02A0B1095FA0C7643 /* NSTimer+BlocksKit.m */; };
+		B58218296D4332FD1184906E /* NSObject+BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D66B5CCA2ED21B9C5BA6C80 /* NSObject+BKAssociatedObjects.h */; };
+		B92716066B96510BBFAB302C /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CBDA231119665FE943967A /* UIView+BlocksKit.m */; };
+		BC4B53A2E3023F10514635D1 /* UIControl+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB47A80891D1EE1128BEC21 /* UIControl+BlocksKit.h */; };
+		BC9D09C4264BEACF2312E412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E64F148AF6A9398B45DF77 /* Foundation.framework */; };
+		BD951C72B97B8BF92D8AD4BD /* A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4E612771C0A1727A13C2F /* A2DynamicDelegate.m */; };
+		BF6713EA118245005313E605 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB712C19F44F3F9AE7BA17E /* NSCache+BlocksKit.m */; };
+		C08FA26BE268A8D58C4964BD /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D7E7B27621AF9A12949AFD /* NSMutableArray+BlocksKit.h */; };
+		C15A17C84E5549AA2942EDEB /* NSMutableOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8132BB50681A3A759D7371E2 /* NSMutableOrderedSet+BlocksKit.m */; };
+		C3A8D322C57B29C0D87B64D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0DD7683221D7C69CD5A15 /* CoreGraphics.framework */; };
+		C4CBACBE8EC4D7422856D8EE /* NSSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A40A3557B014AE9E6FAA4AD /* NSSet+BlocksKit.h */; };
+		C72DD74D3A2675A7A266745F /* NSObject+BKAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B10C144319E4328EFEC55A0 /* NSObject+BKAssociatedObjects.m */; };
+		C8528284740AF1419C5D8CE1 /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EBE13DE61F61237A543118 /* NSURLConnection+BlocksKit.m */; };
+		C85306ADE76917C69542E9D1 /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F51908F34E9B9ACCA586FE /* NSObject+A2BlockDelegate.h */; };
+		CC903A0AA3D189579207E86A /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9CB3ACCE095CD5093CBC8 /* NSMutableDictionary+BlocksKit.m */; };
+		D078E0244238D2BDD58010FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E64F148AF6A9398B45DF77 /* Foundation.framework */; };
+		D0B14DC66E1379D45E4BC174 /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B4137BD0FFE884D58F310508 /* UIAlertView+BlocksKit.h */; };
+		D17FDE762952C34E5A8976ED /* UIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F94D71AFBBED993BDA29E /* UIWebView+BlocksKit.m */; };
+		D373316B937D89E675302EF7 /* A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 460F587F19042D61A1251C1B /* A2DynamicDelegate.h */; };
+		D6B5D9EAC021BC7FAC9B344D /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F46FD0BE88DE6362065DC7 /* BlocksKit+UIKit.h */; };
+		D6BEDAE090CD040219048A78 /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C16AEA3B9592DA4F0B0EEFAB /* NSURLConnection+BlocksKit.h */; };
+		DBEFC23A3B6B0D5410BFFEC3 /* Pods-SAMTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B21988013056DFBC25836B4 /* Pods-SAMTextView-dummy.m */; };
+		DCF308E48765C91D56AE6834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E64F148AF6A9398B45DF77 /* Foundation.framework */; };
+		E4E707571817C9D3A56FCCCF /* BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 136BC860929F3174D4A75CF8 /* BlocksKit.h */; };
+		E5AD52F945EF82251A2A29EC /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A86131CA95C4CF23BBD9DCA /* UIControl+BlocksKit.m */; };
+		E6AC5F2F33B3B9971326B3B3 /* NSMutableSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5CE7CEAF333D61FA244959 /* NSMutableSet+BlocksKit.m */; };
+		E9A62253A5893AF477157680 /* JKSecretAnimatingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F544F5F949CE33CABA881105 /* JKSecretAnimatingLabel.m */; };
+		EF4BB4525E4A866E67C26309 /* NSObject+A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C454C650F5D3EEF1F3F652C /* NSObject+A2DynamicDelegate.h */; };
+		F154BEE8AD2235CD2CFE62B5 /* Pods-JKSexyOptionsOpener-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA4D87DC95DD1E0237B407 /* Pods-JKSexyOptionsOpener-dummy.m */; };
+		F285498D767FFD9F0CEA0CFF /* NSObject+A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075BF011B41FC85DCC6A4D03 /* NSObject+A2BlockDelegate.m */; };
+		F8ACC2AC392D277E0BDC5A24 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3472EC812675E0071D927E /* MessageUI.framework */; };
+		FFCF1EE3C8CF6A3C714DB4FA /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F901A47D2CE0B45CE3681F73 /* UIActionSheet+BlocksKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A4ED46F4D31C5309D7F2352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C2EF78CBF71BD3BACCFBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97841F66D631CFC763D05A14;
+			remoteInfo = "Pods-BlocksKit";
+		};
+		7CEA07D9DB64A6B1A5E2AF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C2EF78CBF71BD3BACCFBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF17013E71F7DD1A69143467;
+			remoteInfo = "Pods-JKSecretAnimatingLabel";
+		};
+		7F893337AD636FC374E9297B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C2EF78CBF71BD3BACCFBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B59D703907EA0B02686BDC;
+			remoteInfo = "Pods-SAMTextView";
+		};
+		AED96183CAFE9F3E6C57CBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C2EF78CBF71BD3BACCFBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E6D38B32258649953C3F46;
+			remoteInfo = "Pods-JKCustomLoader";
+		};
+		DED6553F3E9B6EFBB1E3C4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C2EF78CBF71BD3BACCFBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98169609A6C0A705D56C0BEB;
+			remoteInfo = "Pods-JKSexyOptionsOpener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037387D32BE572B3C8AE7558 /* UIView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BlocksKit.h"; path = "BlocksKit/UIKit/UIView+BlocksKit.h"; sourceTree = "<group>"; };
+		04C4E612771C0A1727A13C2F /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
+		059D241C9647032BD8C94E90 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		073E5C86765EB1A3144EC4DA /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		075BF011B41FC85DCC6A4D03 /* NSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2BlockDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
+		0A0FB15D419163F8386838FA /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h"; sourceTree = "<group>"; };
+		0B26810516B316EA89921C2E /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		0C9F94D71AFBBED993BDA29E /* UIWebView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+BlocksKit.m"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.m"; sourceTree = "<group>"; };
+		0DD835B829676B7A3C9CEC15 /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		0E3472EC812675E0071D927E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		108C3DC20CC4E107863E0A62 /* libPods-JKSecretAnimatingLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKSecretAnimatingLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12740E3B9D6F8B72C094A972 /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BlocksKit.h"; path = "BlocksKit/Core/NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		136BC860929F3174D4A75CF8 /* BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlocksKit.h; path = BlocksKit/BlocksKit.h; sourceTree = "<group>"; };
+		140F539A3C0A5F5EC6741368 /* Pods-JKSecretAnimatingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSecretAnimatingLabel-prefix.pch"; sourceTree = "<group>"; };
+		161F23A4EAF6D6795E8EF7B1 /* libPods-SAMTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAMTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1920308669AE51E53836B6D4 /* NSObject+BKBlockObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockObservation.h"; path = "BlocksKit/Core/NSObject+BKBlockObservation.h"; sourceTree = "<group>"; };
+		1B10C144319E4328EFEC55A0 /* NSObject+BKAssociatedObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKAssociatedObjects.m"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.m"; sourceTree = "<group>"; };
+		1C454C650F5D3EEF1F3F652C /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2DynamicDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
+		1C5819C498DA8477727953CB /* JKBezierStarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKBezierStarDrawer.h; path = JKCustomLoader/Classes/JKBezierStarDrawer.h; sourceTree = "<group>"; };
+		23DA4F826D4CE126F5F7A712 /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+BlocksKit.m"; path = "BlocksKit/UIKit/UITextField+BlocksKit.m"; sourceTree = "<group>"; };
+		24443370245AFFB625226C46 /* BKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMacros.h; path = BlocksKit/Core/BKMacros.h; sourceTree = "<group>"; };
+		29D0DD7683221D7C69CD5A15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		29EF5408C2E47A35E5BA9390 /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockObservation.m"; path = "BlocksKit/Core/NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
+		2E42F1882363576A8F01319D /* Pods-JKSecretAnimatingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSecretAnimatingLabel.xcconfig"; sourceTree = "<group>"; };
+		2FDCFA0D1221DC3DF60928B6 /* A2BlockInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2BlockInvocation.m; path = BlocksKit/DynamicDelegate/A2BlockInvocation.m; sourceTree = "<group>"; };
+		31EEEB6AB9F6F5AB92F559B9 /* MFMessageComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMessageComposeViewController+BlocksKit.m"; path = "BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		3221B17A209A29879F102ACF /* JKCustomLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JKCustomLoader.m; path = JKCustomLoader/Classes/JKCustomLoader.m; sourceTree = "<group>"; };
+		33380632822A763748106DB6 /* Pods-SAMTextView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMTextView-Private.xcconfig"; sourceTree = "<group>"; };
+		3719788D6E787B282ADA130A /* NSObject+BKBlockExecution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockExecution.h"; path = "BlocksKit/Core/NSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
+		37758F0428661431A7011BD8 /* SAMTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMTextView.m; path = SAMTextView/SAMTextView.m; sourceTree = "<group>"; };
+		37A7EAE088F24DB0EB997669 /* UIImagePickerController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+BlocksKit.h"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.h"; sourceTree = "<group>"; };
+		391F09F02A0B1095FA0C7643 /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+BlocksKit.m"; path = "BlocksKit/Core/NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		3A479F03760A7A81E8EDF57B /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BlocksKit.m"; path = "BlocksKit/Core/NSArray+BlocksKit.m"; sourceTree = "<group>"; };
+		3A86131CA95C4CF23BBD9DCA /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+BlocksKit.m"; path = "BlocksKit/UIKit/UIControl+BlocksKit.m"; sourceTree = "<group>"; };
+		3BD15331FE8A3C71AF9A7675 /* UIImagePickerController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+BlocksKit.m"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.m"; sourceTree = "<group>"; };
+		3C360C217C7AD4C33B73BFC7 /* Pods-BlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlocksKit-prefix.pch"; sourceTree = "<group>"; };
+		42B83F5BFDBFB729BF32F3DC /* JKSecretAnimatingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKSecretAnimatingLabel.h; path = JKSecretAnimatingLabel/Classes/JKSecretAnimatingLabel.h; sourceTree = "<group>"; };
+		4438D6BE510EF31FB56E940A /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+BlocksKit.m"; path = "BlocksKit/Core/NSSet+BlocksKit.m"; sourceTree = "<group>"; };
+		452032515C78823B29A008D6 /* Pods-BlocksKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlocksKit.xcconfig"; sourceTree = "<group>"; };
+		460F587F19042D61A1251C1B /* A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2DynamicDelegate.h; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.h; sourceTree = "<group>"; };
+		46F545B8F571A6D896BB0CB8 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+BlocksKit.m"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		473FBA9757E98E758096203D /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+BlocksKit.h"; path = "BlocksKit/Core/NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		477CBAA25396585943C24D47 /* Pods-JKSexyOptionsOpener-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSexyOptionsOpener-Private.xcconfig"; sourceTree = "<group>"; };
+		4A40A3557B014AE9E6FAA4AD /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+BlocksKit.h"; path = "BlocksKit/Core/NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		4C2A5E83EEBCCB5D9CB4B1F5 /* Pods-SAMTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAMTextView-prefix.pch"; sourceTree = "<group>"; };
+		4F6806836BF2BFBDD1BA6F42 /* CustomSexyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomSexyButton.m; path = JKSexyOptionsOpener/Classes/CustomSexyButton.m; sourceTree = "<group>"; };
+		4FB47A80891D1EE1128BEC21 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+BlocksKit.h"; path = "BlocksKit/UIKit/UIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		50A9CB3ACCE095CD5093CBC8 /* NSMutableDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+BlocksKit.m"; path = "BlocksKit/Core/NSMutableDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		5716A82955C0F5069D0AAB12 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		57ABB723BB5862FA5CB2FF83 /* UITextField+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+BlocksKit.h"; path = "BlocksKit/UIKit/UITextField+BlocksKit.h"; sourceTree = "<group>"; };
+		5C6C9113B2A35CF028029ECD /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+BlocksKit.m"; path = "BlocksKit/Core/NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
+		5E5CE7CEAF333D61FA244959 /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
+		6869E75804CD2AE28DA92BA3 /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
+		6996FB3C417C6819B0BACA3F /* UIWebView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+BlocksKit.h"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		69A52350D7A34EA87B771314 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BE228AD8E73979AC5A54742 /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		6C0B6C6431019F6F9EDB525A /* Pods-JKCustomLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKCustomLoader-dummy.m"; sourceTree = "<group>"; };
+		6EB1EACBE9A0356C6C396FD4 /* JKBezierStarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JKBezierStarDrawer.m; path = JKCustomLoader/Classes/JKBezierStarDrawer.m; sourceTree = "<group>"; };
+		6F7C00D06DED8554911FD427 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		70C17C6D4BA18552D70F54F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		730BAA5F8D5787F78A237E7C /* libPods-JKCustomLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKCustomLoader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EBE13DE61F61237A543118 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
+		74C731FC06E88CCEE59512A9 /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BlocksKit.h"; path = "BlocksKit/Core/NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		78E2714CDDB418EF94DB6417 /* NSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2DynamicDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
+		7A2BA99FEE50B1FECD7255F0 /* MFMailComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMailComposeViewController+BlocksKit.h"; path = "BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		7AC9D8341418EB1E7987977C /* libPods-BlocksKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlocksKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBFCBCDD1AA98E3A25A5AE3 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+BlocksKit.h"; path = "BlocksKit/Core/NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
+		7CE420BA34FD57E191C93D53 /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+BlocksKit.h"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
+		7F45CC0CCCDF0A07C006F7C8 /* Pods-JKCustomLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKCustomLoader-prefix.pch"; sourceTree = "<group>"; };
+		8027E31E927142AC77ADE818 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8132BB50681A3A759D7371E2 /* NSMutableOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		8279A4D65F44BEB6543432F7 /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
+		87E049E889C92B4C16407D84 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		89745159E3B3D82689FBE26B /* Pods-JKCustomLoader-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKCustomLoader-Private.xcconfig"; sourceTree = "<group>"; };
+		8D66B5CCA2ED21B9C5BA6C80 /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKAssociatedObjects.h"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
+		8DB6FF3593CB91E48686EAFC /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+BlocksKit.h"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		8E5B0F379BA49C9D9A05D06F /* CustomSexyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomSexyButton.h; path = JKSexyOptionsOpener/Classes/CustomSexyButton.h; sourceTree = "<group>"; };
+		934D3B8551D737D7711C367C /* Pods-JKSexyOptionsOpener-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSexyOptionsOpener-prefix.pch"; sourceTree = "<group>"; };
+		97270EDDFBBF7748D4F0F572 /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+MessageUI.h"; path = "BlocksKit/BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
+		9B21988013056DFBC25836B4 /* Pods-SAMTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAMTextView-dummy.m"; sourceTree = "<group>"; };
+		9F5A290E20601CEFE4EA8095 /* SAMTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMTextView.h; path = SAMTextView/SAMTextView.h; sourceTree = "<group>"; };
+		A60E590F90AA2A639849422A /* JKOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKOption.h; path = JKSexyOptionsOpener/Classes/JKOption.h; sourceTree = "<group>"; };
+		A63C4B456EFCA7CD374787B1 /* libPods-JKSexyOptionsOpener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKSexyOptionsOpener.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1221EB9B63ACD174DED65F6 /* MFMessageComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMessageComposeViewController+BlocksKit.h"; path = "BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		B191B205231229539C0DC559 /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+BlocksKit.m"; path = "BlocksKit/UIKit/UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
+		B4137BD0FFE884D58F310508 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+BlocksKit.h"; path = "BlocksKit/UIKit/UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
+		B4CBDA231119665FE943967A /* UIView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BlocksKit.m"; path = "BlocksKit/UIKit/UIView+BlocksKit.m"; sourceTree = "<group>"; };
+		B66E49A42D4DE20663CF3170 /* Pods-BlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlocksKit-dummy.m"; sourceTree = "<group>"; };
+		B87BB2C3ACC7453C9C08884A /* Pods-JKSexyOptionsOpener.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSexyOptionsOpener.xcconfig"; sourceTree = "<group>"; };
+		C16AEA3B9592DA4F0B0EEFAB /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
+		C2F51908F34E9B9ACCA586FE /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2BlockDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
+		C30E58A9CBEF9ECA18CFC965 /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+BlocksKit.h"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
+		C5D254FABE4AA7135C8047BB /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+BlocksKit.m"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
+		C5F09C39743E6EE42DF44EBD /* NSObject+BKBlockExecution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockExecution.m"; path = "BlocksKit/Core/NSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
+		C64412C8AFB77A9D158FE881 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6E64F148AF6A9398B45DF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C9BCFF538272881414B24919 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		CACA4ABEB459CAF8995E77A7 /* Pods-JKSecretAnimatingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSecretAnimatingLabel-dummy.m"; sourceTree = "<group>"; };
+		CC16589A882179CA51DA9556 /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+BlocksKit.h"; path = "BlocksKit/UIKit/UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
+		CCB712C19F44F3F9AE7BA17E /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m"; sourceTree = "<group>"; };
+		CDAD1E58A4ACB53A378815BE /* MFMailComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMailComposeViewController+BlocksKit.m"; path = "BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		CEE2BA4BC26C4C59C5BD794D /* UIPopoverController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+BlocksKit.m"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.m"; sourceTree = "<group>"; };
+		CF7EB4366AB6B99709F2726D /* JKAnimatedOptionsOpenerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JKAnimatedOptionsOpenerView.m; path = JKSexyOptionsOpener/Classes/JKAnimatedOptionsOpenerView.m; sourceTree = "<group>"; };
+		D3484FD65686E56192276030 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		D4AD0740B432437E9E65C54E /* Pods-JKCustomLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKCustomLoader.xcconfig"; sourceTree = "<group>"; };
+		D7CC3059A09971D1042B9D82 /* Pods-JKSecretAnimatingLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSecretAnimatingLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		D8995B0AB182B6234182A0FA /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		D9F46FD0BE88DE6362065DC7 /* BlocksKit+UIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+UIKit.h"; path = "BlocksKit/BlocksKit+UIKit.h"; sourceTree = "<group>"; };
+		DA5CA1D4F2275CEE47E883EB /* Pods-SAMTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMTextView.xcconfig"; sourceTree = "<group>"; };
+		DBDDD700BFEFDC0B22EEDE8D /* JKOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JKOption.m; path = JKSexyOptionsOpener/Classes/JKOption.m; sourceTree = "<group>"; };
+		DFCAC95DDC0A583EE0C2A527 /* JKCustomLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKCustomLoader.h; path = JKCustomLoader/Classes/JKCustomLoader.h; sourceTree = "<group>"; };
+		E1CCCC833F188D0544C0A37F /* NSMutableOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		E4F1316A1369D8D5684BA610 /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+BlocksKit.m"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
+		EA0D51A1173183F961188203 /* Pods-BlocksKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlocksKit-Private.xcconfig"; sourceTree = "<group>"; };
+		EF1160082B0C75E21DD72416 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+BlocksKit.h"; path = "BlocksKit/Core/NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		F544F5F949CE33CABA881105 /* JKSecretAnimatingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JKSecretAnimatingLabel.m; path = JKSecretAnimatingLabel/Classes/JKSecretAnimatingLabel.m; sourceTree = "<group>"; };
+		F7D7E7B27621AF9A12949AFD /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+BlocksKit.h"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
+		F901A47D2CE0B45CE3681F73 /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+BlocksKit.m"; path = "BlocksKit/UIKit/UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
+		FA1164B16183CE6EA4EB41B2 /* NSDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BlocksKit.m"; path = "BlocksKit/Core/NSDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		FE8DF3F635904E04D35AC7F8 /* JKAnimatedOptionsOpenerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKAnimatedOptionsOpenerView.h; path = JKSexyOptionsOpener/Classes/JKAnimatedOptionsOpenerView.h; sourceTree = "<group>"; };
+		FECD2B875E58E3427BBEE76A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFBA4D87DC95DD1E0237B407 /* Pods-JKSexyOptionsOpener-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSexyOptionsOpener-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FFC5113D27F3452C6DCE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9D09C4264BEACF2312E412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F229DB056E4A9B8607A0E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D078E0244238D2BDD58010FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628A2E54C27970EDFA889A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970BC9D98C735FC187FFDC4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6774BA52362A50E4728BEB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A8D322C57B29C0D87B64D0 /* CoreGraphics.framework in Frameworks */,
+				48CE54469024EFDAE7B08989 /* Foundation.framework in Frameworks */,
+				04E01FB7F36D097BE6A4B07B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80621784D0764B15243A2913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8053045D6AA6950E4F62A5F4 /* Foundation.framework in Frameworks */,
+				F8ACC2AC392D277E0BDC5A24 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C94238B35900ECFE863836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF308E48765C91D56AE6834 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07834FA49B28F6DDFBE8230D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D9F46FD0BE88DE6362065DC7 /* BlocksKit+UIKit.h */,
+				CC16589A882179CA51DA9556 /* UIActionSheet+BlocksKit.h */,
+				F901A47D2CE0B45CE3681F73 /* UIActionSheet+BlocksKit.m */,
+				B4137BD0FFE884D58F310508 /* UIAlertView+BlocksKit.h */,
+				B191B205231229539C0DC559 /* UIAlertView+BlocksKit.m */,
+				8DB6FF3593CB91E48686EAFC /* UIBarButtonItem+BlocksKit.h */,
+				46F545B8F571A6D896BB0CB8 /* UIBarButtonItem+BlocksKit.m */,
+				4FB47A80891D1EE1128BEC21 /* UIControl+BlocksKit.h */,
+				3A86131CA95C4CF23BBD9DCA /* UIControl+BlocksKit.m */,
+				C30E58A9CBEF9ECA18CFC965 /* UIGestureRecognizer+BlocksKit.h */,
+				E4F1316A1369D8D5684BA610 /* UIGestureRecognizer+BlocksKit.m */,
+				37A7EAE088F24DB0EB997669 /* UIImagePickerController+BlocksKit.h */,
+				3BD15331FE8A3C71AF9A7675 /* UIImagePickerController+BlocksKit.m */,
+				7CE420BA34FD57E191C93D53 /* UIPopoverController+BlocksKit.h */,
+				CEE2BA4BC26C4C59C5BD794D /* UIPopoverController+BlocksKit.m */,
+				57ABB723BB5862FA5CB2FF83 /* UITextField+BlocksKit.h */,
+				23DA4F826D4CE126F5F7A712 /* UITextField+BlocksKit.m */,
+				037387D32BE572B3C8AE7558 /* UIView+BlocksKit.h */,
+				B4CBDA231119665FE943967A /* UIView+BlocksKit.m */,
+				6996FB3C417C6819B0BACA3F /* UIWebView+BlocksKit.h */,
+				0C9F94D71AFBBED993BDA29E /* UIWebView+BlocksKit.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		10A8E97E82C6FF9B8E1CEEAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E42F1882363576A8F01319D /* Pods-JKSecretAnimatingLabel.xcconfig */,
+				D7CC3059A09971D1042B9D82 /* Pods-JKSecretAnimatingLabel-Private.xcconfig */,
+				CACA4ABEB459CAF8995E77A7 /* Pods-JKSecretAnimatingLabel-dummy.m */,
+				140F539A3C0A5F5EC6741368 /* Pods-JKSecretAnimatingLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JKSecretAnimatingLabel";
+			sourceTree = "<group>";
+		};
+		48D984CBE7B898FDE2152AA3 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				B777DF01ED85A661F8507C75 /* Core */,
+				6F9268E315B678A67FDE0639 /* DynamicDelegate */,
+				BABAE4E0B02D2EB40D8E6337 /* MessageUI */,
+				B628D82D611278FC02BC68E6 /* Support Files */,
+				07834FA49B28F6DDFBE8230D /* UIKit */,
+			);
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		6F9268E315B678A67FDE0639 /* DynamicDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6869E75804CD2AE28DA92BA3 /* A2BlockInvocation.h */,
+				2FDCFA0D1221DC3DF60928B6 /* A2BlockInvocation.m */,
+				460F587F19042D61A1251C1B /* A2DynamicDelegate.h */,
+				04C4E612771C0A1727A13C2F /* A2DynamicDelegate.m */,
+				0A0FB15D419163F8386838FA /* NSCache+BlocksKit.h */,
+				CCB712C19F44F3F9AE7BA17E /* NSCache+BlocksKit.m */,
+				C2F51908F34E9B9ACCA586FE /* NSObject+A2BlockDelegate.h */,
+				075BF011B41FC85DCC6A4D03 /* NSObject+A2BlockDelegate.m */,
+				1C454C650F5D3EEF1F3F652C /* NSObject+A2DynamicDelegate.h */,
+				78E2714CDDB418EF94DB6417 /* NSObject+A2DynamicDelegate.m */,
+				C16AEA3B9592DA4F0B0EEFAB /* NSURLConnection+BlocksKit.h */,
+				73EBE13DE61F61237A543118 /* NSURLConnection+BlocksKit.m */,
+			);
+			name = DynamicDelegate;
+			sourceTree = "<group>";
+		};
+		72D2E14CD7A08FDD6B5D2CB2 /* JKSexyOptionsOpener */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B0F379BA49C9D9A05D06F /* CustomSexyButton.h */,
+				4F6806836BF2BFBDD1BA6F42 /* CustomSexyButton.m */,
+				FE8DF3F635904E04D35AC7F8 /* JKAnimatedOptionsOpenerView.h */,
+				CF7EB4366AB6B99709F2726D /* JKAnimatedOptionsOpenerView.m */,
+				A60E590F90AA2A639849422A /* JKOption.h */,
+				DBDDD700BFEFDC0B22EEDE8D /* JKOption.m */,
+				B4110CD721C74262D980B7BF /* Support Files */,
+			);
+			path = JKSexyOptionsOpener;
+			sourceTree = "<group>";
+		};
+		72EC4C8D3B9D075F69501F6E /* JKSecretAnimatingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				42B83F5BFDBFB729BF32F3DC /* JKSecretAnimatingLabel.h */,
+				F544F5F949CE33CABA881105 /* JKSecretAnimatingLabel.m */,
+				10A8E97E82C6FF9B8E1CEEAE /* Support Files */,
+			);
+			path = JKSecretAnimatingLabel;
+			sourceTree = "<group>";
+		};
+		82EAB4D1278A046FDE9315E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F17B6FB85B1EDE306493CC /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9CE7C97769E7E89092A2DEE1 /* SAMTextView */ = {
+			isa = PBXGroup;
+			children = (
+				9F5A290E20601CEFE4EA8095 /* SAMTextView.h */,
+				37758F0428661431A7011BD8 /* SAMTextView.m */,
+				D0CB2EE044A85BFA3662F03A /* Support Files */,
+			);
+			path = SAMTextView;
+			sourceTree = "<group>";
+		};
+		B0272997A409B568FF7EBBBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B519FEFA8BE3E408216ED731 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4110CD721C74262D980B7BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B87BB2C3ACC7453C9C08884A /* Pods-JKSexyOptionsOpener.xcconfig */,
+				477CBAA25396585943C24D47 /* Pods-JKSexyOptionsOpener-Private.xcconfig */,
+				FFBA4D87DC95DD1E0237B407 /* Pods-JKSexyOptionsOpener-dummy.m */,
+				934D3B8551D737D7711C367C /* Pods-JKSexyOptionsOpener-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JKSexyOptionsOpener";
+			sourceTree = "<group>";
+		};
+		B519FEFA8BE3E408216ED731 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29D0DD7683221D7C69CD5A15 /* CoreGraphics.framework */,
+				C6E64F148AF6A9398B45DF77 /* Foundation.framework */,
+				0E3472EC812675E0071D927E /* MessageUI.framework */,
+				6F7C00D06DED8554911FD427 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B628D82D611278FC02BC68E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				452032515C78823B29A008D6 /* Pods-BlocksKit.xcconfig */,
+				EA0D51A1173183F961188203 /* Pods-BlocksKit-Private.xcconfig */,
+				B66E49A42D4DE20663CF3170 /* Pods-BlocksKit-dummy.m */,
+				3C360C217C7AD4C33B73BFC7 /* Pods-BlocksKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BlocksKit";
+			sourceTree = "<group>";
+		};
+		B777DF01ED85A661F8507C75 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				24443370245AFFB625226C46 /* BKMacros.h */,
+				136BC860929F3174D4A75CF8 /* BlocksKit.h */,
+				12740E3B9D6F8B72C094A972 /* NSArray+BlocksKit.h */,
+				3A479F03760A7A81E8EDF57B /* NSArray+BlocksKit.m */,
+				74C731FC06E88CCEE59512A9 /* NSDictionary+BlocksKit.h */,
+				FA1164B16183CE6EA4EB41B2 /* NSDictionary+BlocksKit.m */,
+				87E049E889C92B4C16407D84 /* NSIndexSet+BlocksKit.h */,
+				0DD835B829676B7A3C9CEC15 /* NSIndexSet+BlocksKit.m */,
+				7BBFCBCDD1AA98E3A25A5AE3 /* NSInvocation+BlocksKit.h */,
+				5C6C9113B2A35CF028029ECD /* NSInvocation+BlocksKit.m */,
+				F7D7E7B27621AF9A12949AFD /* NSMutableArray+BlocksKit.h */,
+				C5D254FABE4AA7135C8047BB /* NSMutableArray+BlocksKit.m */,
+				EF1160082B0C75E21DD72416 /* NSMutableDictionary+BlocksKit.h */,
+				50A9CB3ACCE095CD5093CBC8 /* NSMutableDictionary+BlocksKit.m */,
+				0B26810516B316EA89921C2E /* NSMutableIndexSet+BlocksKit.h */,
+				6BE228AD8E73979AC5A54742 /* NSMutableIndexSet+BlocksKit.m */,
+				E1CCCC833F188D0544C0A37F /* NSMutableOrderedSet+BlocksKit.h */,
+				8132BB50681A3A759D7371E2 /* NSMutableOrderedSet+BlocksKit.m */,
+				8279A4D65F44BEB6543432F7 /* NSMutableSet+BlocksKit.h */,
+				5E5CE7CEAF333D61FA244959 /* NSMutableSet+BlocksKit.m */,
+				8D66B5CCA2ED21B9C5BA6C80 /* NSObject+BKAssociatedObjects.h */,
+				1B10C144319E4328EFEC55A0 /* NSObject+BKAssociatedObjects.m */,
+				3719788D6E787B282ADA130A /* NSObject+BKBlockExecution.h */,
+				C5F09C39743E6EE42DF44EBD /* NSObject+BKBlockExecution.m */,
+				1920308669AE51E53836B6D4 /* NSObject+BKBlockObservation.h */,
+				29EF5408C2E47A35E5BA9390 /* NSObject+BKBlockObservation.m */,
+				D8995B0AB182B6234182A0FA /* NSOrderedSet+BlocksKit.h */,
+				073E5C86765EB1A3144EC4DA /* NSOrderedSet+BlocksKit.m */,
+				4A40A3557B014AE9E6FAA4AD /* NSSet+BlocksKit.h */,
+				4438D6BE510EF31FB56E940A /* NSSet+BlocksKit.m */,
+				473FBA9757E98E758096203D /* NSTimer+BlocksKit.h */,
+				391F09F02A0B1095FA0C7643 /* NSTimer+BlocksKit.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BABAE4E0B02D2EB40D8E6337 /* MessageUI */ = {
+			isa = PBXGroup;
+			children = (
+				97270EDDFBBF7748D4F0F572 /* BlocksKit+MessageUI.h */,
+				7A2BA99FEE50B1FECD7255F0 /* MFMailComposeViewController+BlocksKit.h */,
+				CDAD1E58A4ACB53A378815BE /* MFMailComposeViewController+BlocksKit.m */,
+				B1221EB9B63ACD174DED65F6 /* MFMessageComposeViewController+BlocksKit.h */,
+				31EEEB6AB9F6F5AB92F559B9 /* MFMessageComposeViewController+BlocksKit.m */,
+			);
+			name = MessageUI;
+			sourceTree = "<group>";
+		};
+		C9F17B6FB85B1EDE306493CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69A52350D7A34EA87B771314 /* Pods-acknowledgements.markdown */,
+				C64412C8AFB77A9D158FE881 /* Pods-acknowledgements.plist */,
+				8027E31E927142AC77ADE818 /* Pods-dummy.m */,
+				C9BCFF538272881414B24919 /* Pods-environment.h */,
+				059D241C9647032BD8C94E90 /* Pods-resources.sh */,
+				5716A82955C0F5069D0AAB12 /* Pods.debug.xcconfig */,
+				D3484FD65686E56192276030 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		D0CB2EE044A85BFA3662F03A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5CA1D4F2275CEE47E883EB /* Pods-SAMTextView.xcconfig */,
+				33380632822A763748106DB6 /* Pods-SAMTextView-Private.xcconfig */,
+				9B21988013056DFBC25836B4 /* Pods-SAMTextView-dummy.m */,
+				4C2A5E83EEBCCB5D9CB4B1F5 /* Pods-SAMTextView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SAMTextView";
+			sourceTree = "<group>";
+		};
+		D768ADD08D01F1DAA3720CCD = {
+			isa = PBXGroup;
+			children = (
+				FECD2B875E58E3427BBEE76A /* Podfile */,
+				B0272997A409B568FF7EBBBB /* Frameworks */,
+				EF42E0B818979C0C299B30AE /* Pods */,
+				DBAFEC64D4A896B720FAABFB /* Products */,
+				82EAB4D1278A046FDE9315E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DBAFEC64D4A896B720FAABFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70C17C6D4BA18552D70F54F9 /* libPods.a */,
+				7AC9D8341418EB1E7987977C /* libPods-BlocksKit.a */,
+				730BAA5F8D5787F78A237E7C /* libPods-JKCustomLoader.a */,
+				108C3DC20CC4E107863E0A62 /* libPods-JKSecretAnimatingLabel.a */,
+				A63C4B456EFCA7CD374787B1 /* libPods-JKSexyOptionsOpener.a */,
+				161F23A4EAF6D6795E8EF7B1 /* libPods-SAMTextView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D6D6212DD78B03E56EC56C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD0740B432437E9E65C54E /* Pods-JKCustomLoader.xcconfig */,
+				89745159E3B3D82689FBE26B /* Pods-JKCustomLoader-Private.xcconfig */,
+				6C0B6C6431019F6F9EDB525A /* Pods-JKCustomLoader-dummy.m */,
+				7F45CC0CCCDF0A07C006F7C8 /* Pods-JKCustomLoader-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JKCustomLoader";
+			sourceTree = "<group>";
+		};
+		EF42E0B818979C0C299B30AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48D984CBE7B898FDE2152AA3 /* BlocksKit */,
+				FDFA51C1818E3FF69A990F73 /* JKCustomLoader */,
+				72EC4C8D3B9D075F69501F6E /* JKSecretAnimatingLabel */,
+				72D2E14CD7A08FDD6B5D2CB2 /* JKSexyOptionsOpener */,
+				9CE7C97769E7E89092A2DEE1 /* SAMTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDFA51C1818E3FF69A990F73 /* JKCustomLoader */ = {
+			isa = PBXGroup;
+			children = (
+				1C5819C498DA8477727953CB /* JKBezierStarDrawer.h */,
+				6EB1EACBE9A0356C6C396FD4 /* JKBezierStarDrawer.m */,
+				DFCAC95DDC0A583EE0C2A527 /* JKCustomLoader.h */,
+				3221B17A209A29879F102ACF /* JKCustomLoader.m */,
+				E0D6D6212DD78B03E56EC56C /* Support Files */,
+			);
+			path = JKCustomLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22F4BDC9CF93F22D6FAEAA22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141A204A50530C4BD67A8CD8 /* A2BlockInvocation.h in Headers */,
+				D373316B937D89E675302EF7 /* A2DynamicDelegate.h in Headers */,
+				6B07FCFA35B1E51AA6303E5C /* BKMacros.h in Headers */,
+				4C9977D16F2FE5F06E80F22D /* BlocksKit+MessageUI.h in Headers */,
+				D6B5D9EAC021BC7FAC9B344D /* BlocksKit+UIKit.h in Headers */,
+				E4E707571817C9D3A56FCCCF /* BlocksKit.h in Headers */,
+				551A3D9EBE5D32875D4FEC11 /* MFMailComposeViewController+BlocksKit.h in Headers */,
+				78AD4D132E20542162331B02 /* MFMessageComposeViewController+BlocksKit.h in Headers */,
+				1C7AC08EF034697C38D70B16 /* NSArray+BlocksKit.h in Headers */,
+				7733E75E0E009D55D5ED0374 /* NSCache+BlocksKit.h in Headers */,
+				8FA8E094DABE1DBDA7B89696 /* NSDictionary+BlocksKit.h in Headers */,
+				329D76B42912D35222F9627A /* NSIndexSet+BlocksKit.h in Headers */,
+				59E310FD5863D470DDB16169 /* NSInvocation+BlocksKit.h in Headers */,
+				C08FA26BE268A8D58C4964BD /* NSMutableArray+BlocksKit.h in Headers */,
+				85F3AF04237FDF0479AC63F3 /* NSMutableDictionary+BlocksKit.h in Headers */,
+				088DB94DC908253156131106 /* NSMutableIndexSet+BlocksKit.h in Headers */,
+				96CEB902B6443FDC767432F7 /* NSMutableOrderedSet+BlocksKit.h in Headers */,
+				5DA0A84A66F7FDF48EFEA20B /* NSMutableSet+BlocksKit.h in Headers */,
+				C85306ADE76917C69542E9D1 /* NSObject+A2BlockDelegate.h in Headers */,
+				EF4BB4525E4A866E67C26309 /* NSObject+A2DynamicDelegate.h in Headers */,
+				B58218296D4332FD1184906E /* NSObject+BKAssociatedObjects.h in Headers */,
+				24BE39937FEC2F94218694A6 /* NSObject+BKBlockExecution.h in Headers */,
+				44EF8D9AF6CF52ACD9D3C9DB /* NSObject+BKBlockObservation.h in Headers */,
+				796A8740D7B2025E5E8B6D6F /* NSOrderedSet+BlocksKit.h in Headers */,
+				C4CBACBE8EC4D7422856D8EE /* NSSet+BlocksKit.h in Headers */,
+				34D979E6CD61218BADB83AA9 /* NSTimer+BlocksKit.h in Headers */,
+				D6BEDAE090CD040219048A78 /* NSURLConnection+BlocksKit.h in Headers */,
+				485A91BFF892A60A5FB54A43 /* UIActionSheet+BlocksKit.h in Headers */,
+				D0B14DC66E1379D45E4BC174 /* UIAlertView+BlocksKit.h in Headers */,
+				26A3FB7832645C4B58BB437D /* UIBarButtonItem+BlocksKit.h in Headers */,
+				BC4B53A2E3023F10514635D1 /* UIControl+BlocksKit.h in Headers */,
+				9C131BBE59BEA4EBF30CDC4B /* UIGestureRecognizer+BlocksKit.h in Headers */,
+				2A54F1011E28096701E7143A /* UIImagePickerController+BlocksKit.h in Headers */,
+				2F08C1F4D91ABCAB8F7B6191 /* UIPopoverController+BlocksKit.h in Headers */,
+				9C8A5EC10B4CCF69A3F9DFBC /* UITextField+BlocksKit.h in Headers */,
+				56EB3E213F741A102DB70CA5 /* UIView+BlocksKit.h in Headers */,
+				A2D4C53BF42F2BDE6517F02F /* UIWebView+BlocksKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F91C1C11765F2E7A2154B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B97E77D3CE9081AA9DF9CE /* JKSecretAnimatingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A42E978F4E7505B5E98F1F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B5912089B078317DBA0562 /* CustomSexyButton.h in Headers */,
+				4DF161EA75898CAB09673DE6 /* JKAnimatedOptionsOpenerView.h in Headers */,
+				13EB2AC8A420C9B0E4E4D2B6 /* JKOption.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92364FFACBAE0B2F369639B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D07E54E1E467ED9305941 /* SAMTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE09905267C9966E304C18DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1655A9F68E42AE5E69C25D3 /* JKBezierStarDrawer.h in Headers */,
+				768CED68D945FD663FA42D70 /* JKCustomLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76B59D703907EA0B02686BDC /* Pods-SAMTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599B81ED1C3ECB359A3A06AD /* Build configuration list for PBXNativeTarget "Pods-SAMTextView" */;
+			buildPhases = (
+				6C4B6F9F40C690F1B9EA8978 /* Sources */,
+				6774BA52362A50E4728BEB66 /* Frameworks */,
+				C92364FFACBAE0B2F369639B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SAMTextView";
+			productName = "Pods-SAMTextView";
+			productReference = 161F23A4EAF6D6795E8EF7B1 /* libPods-SAMTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		97841F66D631CFC763D05A14 /* Pods-BlocksKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CD0607FC4256AA837344B4 /* Build configuration list for PBXNativeTarget "Pods-BlocksKit" */;
+			buildPhases = (
+				1FCFE09D3C944B204C5C6F40 /* Sources */,
+				80621784D0764B15243A2913 /* Frameworks */,
+				22F4BDC9CF93F22D6FAEAA22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BlocksKit";
+			productName = "Pods-BlocksKit";
+			productReference = 7AC9D8341418EB1E7987977C /* libPods-BlocksKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		98169609A6C0A705D56C0BEB /* Pods-JKSexyOptionsOpener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AC38D4196D729FB66C7BEA /* Build configuration list for PBXNativeTarget "Pods-JKSexyOptionsOpener" */;
+			buildPhases = (
+				0F08630F6FD3B259DDE3C445 /* Sources */,
+				83C94238B35900ECFE863836 /* Frameworks */,
+				8A42E978F4E7505B5E98F1F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JKSexyOptionsOpener";
+			productName = "Pods-JKSexyOptionsOpener";
+			productReference = A63C4B456EFCA7CD374787B1 /* libPods-JKSexyOptionsOpener.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7E6D38B32258649953C3F46 /* Pods-JKCustomLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3D27C47C87251D3C35BAE7 /* Build configuration list for PBXNativeTarget "Pods-JKCustomLoader" */;
+			buildPhases = (
+				ABE20E3B8075204843B388FB /* Sources */,
+				4F229DB056E4A9B8607A0E2A /* Frameworks */,
+				DE09905267C9966E304C18DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JKCustomLoader";
+			productName = "Pods-JKCustomLoader";
+			productReference = 730BAA5F8D5787F78A237E7C /* libPods-JKCustomLoader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF17013E71F7DD1A69143467 /* Pods-JKSecretAnimatingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88F6CF6D259FC44AF23C90E /* Build configuration list for PBXNativeTarget "Pods-JKSecretAnimatingLabel" */;
+			buildPhases = (
+				0BC66C660A84472C879940C2 /* Sources */,
+				628A2E54C27970EDFA889A52 /* Frameworks */,
+				84F91C1C11765F2E7A2154B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JKSecretAnimatingLabel";
+			productName = "Pods-JKSecretAnimatingLabel";
+			productReference = 108C3DC20CC4E107863E0A62 /* libPods-JKSecretAnimatingLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E19458D5CA87214F9E984AED /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0C4B50168BDC7AD35A21B1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				18568AC95CDD5C0AFB4817EF /* Sources */,
+				49FFC5113D27F3452C6DCE14 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67059D5D71EB613AE37CA015 /* PBXTargetDependency */,
+				ECE18E8386F9FC6B9F5BD922 /* PBXTargetDependency */,
+				1833009CAFFF88CFBDDC4B6F /* PBXTargetDependency */,
+				FE8F25402943837FB7A7541C /* PBXTargetDependency */,
+				DE28B592BA478654C23A8853 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 70C17C6D4BA18552D70F54F9 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C2EF78CBF71BD3BACCFBAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 51E3F41030FC9CD27F6AC1AB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D768ADD08D01F1DAA3720CCD;
+			productRefGroup = DBAFEC64D4A896B720FAABFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19458D5CA87214F9E984AED /* Pods */,
+				97841F66D631CFC763D05A14 /* Pods-BlocksKit */,
+				A7E6D38B32258649953C3F46 /* Pods-JKCustomLoader */,
+				BF17013E71F7DD1A69143467 /* Pods-JKSecretAnimatingLabel */,
+				98169609A6C0A705D56C0BEB /* Pods-JKSexyOptionsOpener */,
+				76B59D703907EA0B02686BDC /* Pods-SAMTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC66C660A84472C879940C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A62253A5893AF477157680 /* JKSecretAnimatingLabel.m in Sources */,
+				042124D59D86720D375116B7 /* Pods-JKSecretAnimatingLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F08630F6FD3B259DDE3C445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C2B506ABBA6ED05DD6E54F /* CustomSexyButton.m in Sources */,
+				922AB5F7D652A6C1C1B8740C /* JKAnimatedOptionsOpenerView.m in Sources */,
+				4CF86805121C16AF3907A0CA /* JKOption.m in Sources */,
+				F154BEE8AD2235CD2CFE62B5 /* Pods-JKSexyOptionsOpener-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18568AC95CDD5C0AFB4817EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583EEE291A07E12983E97250 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCFE09D3C944B204C5C6F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AF03271CB09A4515626987 /* A2BlockInvocation.m in Sources */,
+				BD951C72B97B8BF92D8AD4BD /* A2DynamicDelegate.m in Sources */,
+				7A60E5944742B61F46B8CB0F /* MFMailComposeViewController+BlocksKit.m in Sources */,
+				A477B6D8A8D80B2998374DF8 /* MFMessageComposeViewController+BlocksKit.m in Sources */,
+				2FB349713E8C8E168BA07DFD /* NSArray+BlocksKit.m in Sources */,
+				BF6713EA118245005313E605 /* NSCache+BlocksKit.m in Sources */,
+				44E00563BE7CD723848B5217 /* NSDictionary+BlocksKit.m in Sources */,
+				459ED1324F88CF2ABFC82E62 /* NSIndexSet+BlocksKit.m in Sources */,
+				9F924972C1C952A24ECB4049 /* NSInvocation+BlocksKit.m in Sources */,
+				6E3A579683E1CD8DFD1B32C4 /* NSMutableArray+BlocksKit.m in Sources */,
+				CC903A0AA3D189579207E86A /* NSMutableDictionary+BlocksKit.m in Sources */,
+				A1FBF38E22DFA47E67050798 /* NSMutableIndexSet+BlocksKit.m in Sources */,
+				C15A17C84E5549AA2942EDEB /* NSMutableOrderedSet+BlocksKit.m in Sources */,
+				E6AC5F2F33B3B9971326B3B3 /* NSMutableSet+BlocksKit.m in Sources */,
+				F285498D767FFD9F0CEA0CFF /* NSObject+A2BlockDelegate.m in Sources */,
+				09F0566ECD472389873C7E87 /* NSObject+A2DynamicDelegate.m in Sources */,
+				C72DD74D3A2675A7A266745F /* NSObject+BKAssociatedObjects.m in Sources */,
+				347D7E6029BC95EB0EEAEC62 /* NSObject+BKBlockExecution.m in Sources */,
+				5AFB97868D5FFDDB5D3424AB /* NSObject+BKBlockObservation.m in Sources */,
+				7BC8903CB23B75AC6B9BE015 /* NSOrderedSet+BlocksKit.m in Sources */,
+				8E8B537B64F41950A3AB4B78 /* NSSet+BlocksKit.m in Sources */,
+				A4A47676FB74DCC7CD1BA608 /* NSTimer+BlocksKit.m in Sources */,
+				C8528284740AF1419C5D8CE1 /* NSURLConnection+BlocksKit.m in Sources */,
+				98C58EE65006025B8018966A /* Pods-BlocksKit-dummy.m in Sources */,
+				FFCF1EE3C8CF6A3C714DB4FA /* UIActionSheet+BlocksKit.m in Sources */,
+				4281830BADCFA126D2AFF269 /* UIAlertView+BlocksKit.m in Sources */,
+				8D40AE09D61608B5E972130E /* UIBarButtonItem+BlocksKit.m in Sources */,
+				E5AD52F945EF82251A2A29EC /* UIControl+BlocksKit.m in Sources */,
+				188A7B6C9D378F0261129978 /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				55330A0E3FA7529049D8C6A9 /* UIImagePickerController+BlocksKit.m in Sources */,
+				5E2A1A04F85BDFB4548EDF33 /* UIPopoverController+BlocksKit.m in Sources */,
+				072AC4682C6DA8ECE9C79380 /* UITextField+BlocksKit.m in Sources */,
+				B92716066B96510BBFAB302C /* UIView+BlocksKit.m in Sources */,
+				D17FDE762952C34E5A8976ED /* UIWebView+BlocksKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4B6F9F40C690F1B9EA8978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEFC23A3B6B0D5410BFFEC3 /* Pods-SAMTextView-dummy.m in Sources */,
+				4BB2A2376086EB7F10D4A47E /* SAMTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE20E3B8075204843B388FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A88BE927479CE2A9D841FF0 /* JKBezierStarDrawer.m in Sources */,
+				2DB7D05687BED84C17A06F7D /* JKCustomLoader.m in Sources */,
+				3215BF05353E4CAF64AC95FA /* Pods-JKCustomLoader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1833009CAFFF88CFBDDC4B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKSecretAnimatingLabel";
+			target = BF17013E71F7DD1A69143467 /* Pods-JKSecretAnimatingLabel */;
+			targetProxy = 7CEA07D9DB64A6B1A5E2AF3E /* PBXContainerItemProxy */;
+		};
+		67059D5D71EB613AE37CA015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BlocksKit";
+			target = 97841F66D631CFC763D05A14 /* Pods-BlocksKit */;
+			targetProxy = 2A4ED46F4D31C5309D7F2352 /* PBXContainerItemProxy */;
+		};
+		DE28B592BA478654C23A8853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SAMTextView";
+			target = 76B59D703907EA0B02686BDC /* Pods-SAMTextView */;
+			targetProxy = 7F893337AD636FC374E9297B /* PBXContainerItemProxy */;
+		};
+		ECE18E8386F9FC6B9F5BD922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKCustomLoader";
+			target = A7E6D38B32258649953C3F46 /* Pods-JKCustomLoader */;
+			targetProxy = AED96183CAFE9F3E6C57CBB8 /* PBXContainerItemProxy */;
+		};
+		FE8F25402943837FB7A7541C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKSexyOptionsOpener";
+			target = 98169609A6C0A705D56C0BEB /* Pods-JKSexyOptionsOpener */;
+			targetProxy = DED6553F3E9B6EFBB1E3C4BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D95F7DB184F24B8308FD4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2738DDE33865E833C7809766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0D51A1173183F961188203 /* Pods-BlocksKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BlocksKit/Pods-BlocksKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		346D17C2D2C63884F8D3E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3484FD65686E56192276030 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3816FBAE1362A1A4B905F883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89745159E3B3D82689FBE26B /* Pods-JKCustomLoader-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKCustomLoader/Pods-JKCustomLoader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6085E741D061B3E3CAC1501A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CC3059A09971D1042B9D82 /* Pods-JKSecretAnimatingLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKSecretAnimatingLabel/Pods-JKSecretAnimatingLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6592BF8FAFAD62FD1BCCAFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0D51A1173183F961188203 /* Pods-BlocksKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BlocksKit/Pods-BlocksKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		679BC5014BFD7671145DC7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CC3059A09971D1042B9D82 /* Pods-JKSecretAnimatingLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKSecretAnimatingLabel/Pods-JKSecretAnimatingLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7461C1E2443C20E7C0BF8AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477CBAA25396585943C24D47 /* Pods-JKSexyOptionsOpener-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKSexyOptionsOpener/Pods-JKSexyOptionsOpener-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7ED2B9549B5267BCC4210D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89745159E3B3D82689FBE26B /* Pods-JKCustomLoader-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKCustomLoader/Pods-JKCustomLoader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B0C04E82D98F981BF348FBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477CBAA25396585943C24D47 /* Pods-JKSexyOptionsOpener-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKSexyOptionsOpener/Pods-JKSexyOptionsOpener-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C4317272B2E3753B52EEF2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33380632822A763748106DB6 /* Pods-SAMTextView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SAMTextView/Pods-SAMTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CFF06ED8245441583A879786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33380632822A763748106DB6 /* Pods-SAMTextView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SAMTextView/Pods-SAMTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DAE20E58C51B5D7E629C691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FECFE70612067D0C667E8C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5716A82955C0F5069D0AAB12 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E3D27C47C87251D3C35BAE7 /* Build configuration list for PBXNativeTarget "Pods-JKCustomLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED2B9549B5267BCC4210D07 /* Debug */,
+				3816FBAE1362A1A4B905F883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C0C4B50168BDC7AD35A21B1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECFE70612067D0C667E8C31 /* Debug */,
+				346D17C2D2C63884F8D3E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E3F41030FC9CD27F6AC1AB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D95F7DB184F24B8308FD4D9 /* Debug */,
+				DAE20E58C51B5D7E629C691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599B81ED1C3ECB359A3A06AD /* Build configuration list for PBXNativeTarget "Pods-SAMTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4317272B2E3753B52EEF2F6 /* Debug */,
+				CFF06ED8245441583A879786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CD0607FC4256AA837344B4 /* Build configuration list for PBXNativeTarget "Pods-BlocksKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2738DDE33865E833C7809766 /* Debug */,
+				6592BF8FAFAD62FD1BCCAFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AC38D4196D729FB66C7BEA /* Build configuration list for PBXNativeTarget "Pods-JKSexyOptionsOpener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C04E82D98F981BF348FBBE /* Debug */,
+				7461C1E2443C20E7C0BF8AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88F6CF6D259FC44AF23C90E /* Build configuration list for PBXNativeTarget "Pods-JKSecretAnimatingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6085E741D061B3E3CAC1501A /* Debug */,
+				679BC5014BFD7671145DC7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C2EF78CBF71BD3BACCFBAA /* Project object */;
+}
