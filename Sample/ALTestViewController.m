@@ -22,7 +22,7 @@
     self.subItemViewsListCollection = [NSMutableArray new];
     self.heightConstraintsCollection = [NSMutableArray new];
     
-    self.elementsCollection = @{@"First Row":@[@"first row first", @"first row second"],@"Second Row":@[@"second row first", @"second row second"]};
+    self.elementsCollection = @{@"First Row":@[@"first row first", @"first row second"],@"Second Row":@[@"second row first", @"second row second"], @"Third Row":@[@"third row first", @"third row second"],@"Fourth Row":@[@"fourth row first", @"fourth row second"]};
     CGFloat yValue = 44;
     self.view.translatesAutoresizingMaskIntoConstraints = NO;
     NSInteger counter = 0;
@@ -50,7 +50,7 @@
             NSLog(@"Button Title %@", headerButton.titleLabel.text);
             NSLayoutConstraint* con = [self.heightConstraintsCollection objectAtIndex:counter];
             con.constant = (con.constant == 0)? [subItems count]*44 : 0;
-            [UIView animateWithDuration:1.0 animations:^{
+            [UIView animateWithDuration:0.25 animations:^{
                 [self.view layoutIfNeeded];
             }];
         }];
@@ -79,6 +79,7 @@
         
         
         NSLayoutConstraint* heightConstraint = [NSLayoutConstraint constraintWithItem:subItemsHolderView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:44*[subItems count]];
+        heightConstraint.constant = 0;
         [self.heightConstraintsCollection addObject:heightConstraint];
         counter++;
         
@@ -87,7 +88,7 @@
             UILabel* lab = labelsCollection[i];
             
             subItemsHolderView.clipsToBounds = YES;
-            [lab addConstraint:[NSLayoutConstraint constraintWithItem:lab attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:heightConstraint.constant/[subItems count]]];
+            [lab addConstraint:[NSLayoutConstraint constraintWithItem:lab attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:44]];
             [self.view addConstraint:[NSLayoutConstraint constraintWithItem:lab attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:subItemsHolderView attribute:NSLayoutAttributeLeft multiplier:1.0 constant:1]];
             
             [self.view addConstraint:[NSLayoutConstraint constraintWithItem:lab attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:subItemsHolderView attribute:NSLayoutAttributeTop multiplier:1.0 constant:44*i]];
