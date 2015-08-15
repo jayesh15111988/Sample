@@ -22,6 +22,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIView* vv = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];
+    vv.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:vv];
+    
+    UIButton* v = [UIButton new];
+    [v setTitle:@"asdasd" forState:UIControlStateNormal];
+    v.backgroundColor = [UIColor redColor];
+    [self.view addSubview:v];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-100-[v(50)]" options:kNilOptions metrics:nil views:NSDictionaryOfVariableBindings(v)]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-100-[v(50)]" options:kNilOptions metrics:nil views:NSDictionaryOfVariableBindings(v)]];
     [self doStuff];
 }
 
