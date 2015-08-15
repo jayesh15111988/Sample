@@ -1,0 +1,28 @@
+{
+  "name": "JKSexyOptionsOpener",
+  "version": "0.2.0",
+  "summary": "A Sexy option opener for iOS. Spring animation with highly portable across devices and orientations",
+  "description": "                   A longer description of JKSexyOptionsOpener in Markdown format.\n                    This library is inspired by one of the apps I saw recently which opend options in the flower like animation.\n                    Looked cool and I thought maybe I should build one for our internal use too.\n",
+  "homepage": "https://github.com/jayesh15111988/JKSexyOptionsOpener",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jayesh Kawli": "j.kawli@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/JayeshKawli",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/jayesh15111988/JKSexyOptionsOpener.git",
+    "branch": "master"
+  },
+  "source_files": [
+    "Classes",
+    "JKSexyOptionsOpener/Classes/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "requires_arc": true
+}

@@ -1,0 +1,19 @@
+//
+//  ProtocoloUtilizerOne.m
+//  Sample
+//
+//  Created by Jayesh Kawli Backup on 8/14/15.
+//  Copyright (c) 2015 Jayesh Kawli Backup. All rights reserved.
+//
+
+#import "ProtocoloUtilizerOne.h"
+
+@implementation ProtocoloUtilizerOne
+
+- (void)doStuffOne {
+    if ([self.delegate conformsToProtocol:@protocol(HighLevelProtocol)] && [self.delegate respondsToSelector:@selector(doRequiredMethodOne)]) {
+        [self.delegate doRequiredMethodOne];
+    }
+}
+
+@end

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <JKAnimatedOptionsOpenerView.h>
+#import <JKFancySignatureView.h>
 #import <JKCustomLoader.h>
 #import <SAMTextView.h>
 #import <JKSecretAnimatingLabel.h>
@@ -26,6 +27,7 @@
 @property (assign) NSInteger radius;
 @property (assign) CGFloat maskSize;
 @property (strong) UIImage* maskImage;
+@property (weak, nonatomic) IBOutlet UILabel *sampleLabel;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *animateButtonHeightConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *animateButtonWidthConstraint;
 @property (weak, nonatomic) IBOutlet UIView *tempView;
@@ -37,6 +39,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *animateViewButton;
 @property (strong) NSTimer* imageMaskingOperationTimer;
 @property (weak, nonatomic) IBOutlet JKSecretAnimatingLabel *labelToAnimate;
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet JKFancySignatureView *customSignatureView;
 
 @end
 
@@ -49,12 +53,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.customSignatureView updateStrokeColorWithColor:[UIColor redColor]];
+    [self.customSignatureView updateStrokeSizeWithSize:1.0];
+    
+    
     self.maskSize = 0;
+    self.sampleLabel.text = [NSString stringWithFormat:@"Jayesh Sohini Archana Shruti"];
     [self setupAnimationForRedButton];
     self.maskImage = [UIImage imageNamed:@"red.png"];
     //self.tempView.layer.mask = [self getCustomMaskLayerFromRect:CGRectMake(0, 0, 0, 0)];
     //[self setupAnimationParameters];
     [self customLoaderTest];
+    
+    
+    NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
+                                                                      attribute:NSLayoutAttributeLeading
+                                                                      relatedBy:0
+                                                                         toItem:self.view
+                                                                      attribute:NSLayoutAttributeLeft
+                                                                     multiplier:1.0
+                                                                       constant:0];
+    [self.view addConstraint:leftConstraint];
+    
+    NSLayoutConstraint *rightConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
+                                                                       attribute:NSLayoutAttributeTrailing
+                                                                       relatedBy:0
+                                                                          toItem:self.view
+                                                                       attribute:NSLayoutAttributeRight
+                                                                      multiplier:1.0
+                                                                        constant:0];
+    [self.view addConstraint:rightConstraint];
+     
 }
 
 -(void)customLoaderTest {
@@ -62,7 +92,7 @@
     [loader loadViewWithPartialCompletionBlock:^(CGFloat partialCompletionPercentage) {
         
     } andCompletionBlock:^{
-        [self.labelToAnimate animateWithIndividualTextAnimationDuration:0.04 andRange:NSMakeRange(0, self.labelToAnimate.text.length)];
+        [self.labelToAnimate animateWithIndividualTextAnimationDuration:0.01 andRange:NSMakeRange(0, self.labelToAnimate.text.length)];
     }];
 }
 
@@ -78,14 +108,15 @@
     [UIView animateWithDuration:1.0 animations:^{
         [self.view layoutIfNeeded];
     } completion:^(BOOL finished) {
-        //self.tempView.hidden = NO;
+       
+       //self.tempView.hidden = NO;
        /*self.imageMaskingOperationTimer = [NSTimer timerWithTimeInterval:0.01 target:self selector:@selector(updateImageMaskSize) userInfo:nil repeats:YES];
        [[NSRunLoop mainRunLoop] addTimer:self.imageMaskingOperationTimer forMode:NSDefaultRunLoopMode];
         */
        
         
         //With animation - Scale the button without altering its size and position
-      /*  CABasicAnimation* animation = [CABasicAnimation animation];
+       /* CABasicAnimation* animation = [CABasicAnimation animation];
         animation.keyPath = @"transform.scale";
         animation.fromValue = [NSNumber numberWithFloat:1];
         animation.toValue = [NSNumber numberWithFloat:22];
@@ -201,6 +232,7 @@
     both.animations = @[width, color];
     both.repeatCount = 1.0;
     both.removedOnCompletion = NO;
+    
     // optionally add other configuration (that applies to both animations)
     //both.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
@@ -210,6 +242,34 @@
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.title = @"IU Football";
+    
+    
+    NSMutableArray* responseStrings = [NSMutableArray new];
+    
+    dispatch_group_t group1 = dispatch_group_create();
+    
+    NSArray* dataCollection = @[@"One", @"Two", @"Three", @"Four", @"Five"];
+    
+    for (NSString* dataString in dataCollection) {
+        dispatch_group_enter(group1);
+        [self codeMethodInputRequest:dataString andCompletionBlock:^(NSString *response) {
+            [responseStrings addObject:response];
+            dispatch_group_leave(group1);
+        }];
+    }
+    
+    dispatch_group_notify(group1, dispatch_get_main_queue(), ^{
+        NSLog(@"Response Collection is %@", responseStrings);
+    });
+    
+}
+
+- (void)codeMethodInputRequest:(NSString*)inputData andCompletionBlock:(void (^)(NSString* response))completion {
+    double delayInSeconds = 1.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        completion(inputData);
+    });
 }
 
 -(void)animateCircle {

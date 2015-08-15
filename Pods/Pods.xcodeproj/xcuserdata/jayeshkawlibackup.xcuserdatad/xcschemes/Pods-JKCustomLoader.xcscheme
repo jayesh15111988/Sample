@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E2CDA8B61D5CC3058580C7EC"
+               BlueprintIdentifier = "14EABD9FEB56116288BB0F52"
                BuildableName = "libPods-JKCustomLoader.a"
                BlueprintName = "Pods-JKCustomLoader"
                ReferencedContainer = "container:Pods.xcodeproj">

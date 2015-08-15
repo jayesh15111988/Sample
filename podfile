@@ -1,4 +1,8 @@
 pod 'SAMTextView'
+pod 'spacetime'
 pod 'JKSecretAnimatingLabel', :git => 'git@github.com:jayesh15111988/JKSecretAnimatingLabel.git' , :branch => 'master'
 pod 'JKCustomLoader', :git => 'git@github.com:jayesh15111988/JKCustomLoader.git' , :branch => 'master'
+pod 'JKFancySignature', :git => 'git@github.com:jayesh15111988/JKFancySignature.git' , :branch => 'master'
+pod 'JKAutolayoutReadyScrollView', :git => 'git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git' 
+pod 'JKFacebookPrideEffect', :git => 'git@github.com:jayesh15111988/JKFacebookPrideEffect.git'
 pod 'JKSexyOptionsOpener', :git => 'https://github.com/jayesh15111988/JKSexyOptionsOpener', :branch => 'master'

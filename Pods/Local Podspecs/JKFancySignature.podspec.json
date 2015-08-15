@@ -1,0 +1,24 @@
+{
+  "name": "JKFancySignature",
+  "version": "0.0.1",
+  "summary": "Fancy Signature view to create dynamic signature and graphics",
+  "description": "                   A Custom view to allow users to easily create, store and reproduce signature with fancy effects. \n                   Highly customizable to suite to your requirements.\n",
+  "homepage": "https://github.com/jayesh15111988/JKFancySignature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jayesh Kawli": "j.kawli@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/JayeshKawli",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/jayesh15111988/JKFancySignature.git",
+    "branch": "master"
+  },
+  "source_files": "JKFancySignature/Classes/**/*.{h,m}",
+  "requires_arc": true
+}

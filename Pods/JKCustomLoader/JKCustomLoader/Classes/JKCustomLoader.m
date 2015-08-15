@@ -47,7 +47,7 @@ typedef void (^CompletionBlock)();
 
 -(void)loadViewWithPartialCompletionBlock:(void (^)(CGFloat partialCompletionPercentage))partialCompletion andCompletionBlock:(void (^)())completion {
     
-    _animationRate = (CGFloat)(1.0/self.numberOfFramesPerSecond);
+    self.animationRate = (CGFloat)(1.0/self.numberOfFramesPerSecond);
     self.partialCompletionCallback = partialCompletion;
     self.completionCallback = completion;
     CGFloat maximumViewDimension = MAX(self.viewToMask.frame.size.width, self.viewToMask.frame.size.height);

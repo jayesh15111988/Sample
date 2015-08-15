@@ -1,0 +1,17 @@
+{
+  "name": "JKFacebookPrideEffect",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "Facebook style Pride parade effect",
+  "homepage": "https://github.com/jayesh15111988",
+  "authors": "Jayesh Kawli",
+  "source": {
+    "git": "git@github.com:jayesh15111988/JKFacebookPrideEffect.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "JKFacebookPrideEffect/Classes/**/*",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  }
+}

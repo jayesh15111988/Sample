@@ -1,19 +1,40 @@
 PODS:
+  - JKAutolayoutReadyScrollView (0.0.1):
+    - TPKeyboardAvoiding (~> 1.2)
   - JKCustomLoader (1.0)
+  - JKFacebookPrideEffect (0.0.1)
+  - JKFancySignature (0.0.1)
   - JKSecretAnimatingLabel (1.0)
   - JKSexyOptionsOpener (0.2.0)
   - SAMTextView (0.2.2)
+  - spacetime (0.0.1)
+  - TPKeyboardAvoiding (1.2.9)
 
 DEPENDENCIES:
-  - JKCustomLoader (from `git@github.com:jayesh15111988/JKCustomLoader.git`, branch `master`)
-  - JKSecretAnimatingLabel (from `git@github.com:jayesh15111988/JKSecretAnimatingLabel.git`, branch `master`)
-  - JKSexyOptionsOpener (from `https://github.com/jayesh15111988/JKSexyOptionsOpener`, branch `master`)
+  - JKAutolayoutReadyScrollView (from `git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git`)
+  - JKCustomLoader (from `git@github.com:jayesh15111988/JKCustomLoader.git`, branch
+    `master`)
+  - JKFacebookPrideEffect (from `git@github.com:jayesh15111988/JKFacebookPrideEffect.git`)
+  - JKFancySignature (from `git@github.com:jayesh15111988/JKFancySignature.git`, branch
+    `master`)
+  - JKSecretAnimatingLabel (from `git@github.com:jayesh15111988/JKSecretAnimatingLabel.git`,
+    branch `master`)
+  - JKSexyOptionsOpener (from `https://github.com/jayesh15111988/JKSexyOptionsOpener`,
+    branch `master`)
   - SAMTextView
+  - spacetime
 
 EXTERNAL SOURCES:
+  JKAutolayoutReadyScrollView:
+    :git: git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git
   JKCustomLoader:
     :branch: master
     :git: git@github.com:jayesh15111988/JKCustomLoader.git
+  JKFacebookPrideEffect:
+    :git: git@github.com:jayesh15111988/JKFacebookPrideEffect.git
+  JKFancySignature:
+    :branch: master
+    :git: git@github.com:jayesh15111988/JKFancySignature.git
   JKSecretAnimatingLabel:
     :branch: master
     :git: git@github.com:jayesh15111988/JKSecretAnimatingLabel.git
@@ -22,20 +43,34 @@ EXTERNAL SOURCES:
     :git: https://github.com/jayesh15111988/JKSexyOptionsOpener
 
 CHECKOUT OPTIONS:
+  JKAutolayoutReadyScrollView:
+    :commit: 990b2d6e03711889bc51ba6ca698e28b2e8b688f
+    :git: git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git
   JKCustomLoader:
-    :commit: 64033a29c7a6ca5ea8ef9cd40b4bbb4f78667ed8
+    :commit: 364c5292e15ef4ce1af3e42168f34f1571513219
     :git: git@github.com:jayesh15111988/JKCustomLoader.git
+  JKFacebookPrideEffect:
+    :commit: 656018feed4c835be259de2d4f60b7c9974a8847
+    :git: git@github.com:jayesh15111988/JKFacebookPrideEffect.git
+  JKFancySignature:
+    :commit: f98eb644fe610cdbdad16b8e2df03585a63420a0
+    :git: git@github.com:jayesh15111988/JKFancySignature.git
   JKSecretAnimatingLabel:
     :commit: f318e511acfe0766bbaf346d6bd4582d83106f05
     :git: git@github.com:jayesh15111988/JKSecretAnimatingLabel.git
   JKSexyOptionsOpener:
-    :commit: 586b6388f1d32e0890763e5ca7c79514856ac2cb
+    :commit: 41b241bbd038f236ed874a53ceb30abad8d7b392
     :git: https://github.com/jayesh15111988/JKSexyOptionsOpener
 
 SPEC CHECKSUMS:
-  JKCustomLoader: 037ad3041f959d87467ecce539e809452a82ef03
-  JKSecretAnimatingLabel: 1a9f04e12c3cd280ff0d9b608d61dfd99a5e5074
-  JKSexyOptionsOpener: b62546efb562447a7e10578b39cc32737f488c76
-  SAMTextView: c37f114b5bbf3260d804453aa9614b721714646e
+  JKAutolayoutReadyScrollView: 904d57c81dab54bf0bc1c12453e2d61ff7c5279b
+  JKCustomLoader: 62a1463ada06093e1d4accbecf21ad2e3f507308
+  JKFacebookPrideEffect: c977154d620d9e3c810abef3de3876202e31de9e
+  JKFancySignature: 2669c5720d12a3bbf8b95cf84044dad000b4ab94
+  JKSecretAnimatingLabel: 8a902dd9c5ff9f4bbd67d1c07061e7d7dfd876f9
+  JKSexyOptionsOpener: ce2dd62a9edfe90fe87d5e4bf5a0bc779c826f1e
+  SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
+  spacetime: 9c25339b7772d8702f09233f83e26f0e8d0efa4c
+  TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.37.2

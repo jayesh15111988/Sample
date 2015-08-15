@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-JKAutolayoutReadyScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JKCustomLoader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JKFacebookPrideEffect.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JKFancySignature.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,6 +39,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-spacetime.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A8A74E132EB0EB10080F5C5</key>
+		<key>14EABD9FEB56116288BB0F52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2E5B389FE385F90C1D37E60B</key>
+		<key>2F0242849755ABB83C66B404</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5B264DC290C01EEB0EBC91E</key>
+		<key>3EAC0F1A31FB9A2C6103E0DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E2CDA8B61D5CC3058580C7EC</key>
+		<key>6EBACBA9AC91AC1BBF2081D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EC2C85AB8312209AFA8F49AB</key>
+		<key>835B0D00A1E85AFC286F162E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8717458CAB11CAEC217646F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA8ADAE6A4BE4571B03E898D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2908CF9F653CFDCBB781840</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7985C3110916498CF2C9C1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E51EAB3D64F460FC0668B617</key>
 		<dict>
 			<key>primary</key>
 			<true/>
