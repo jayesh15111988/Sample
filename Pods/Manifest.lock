@@ -1,4 +1,23 @@
 PODS:
+  - AHEasing (1.2)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - JK3DFlapView (0.0.2):
+    - AHEasing
+    - BlocksKit (~> 2.2)
   - JKAutolayoutReadyScrollView (0.0.1):
     - TPKeyboardAvoiding (~> 1.2)
   - JKCustomLoader (1.0)
@@ -11,6 +30,7 @@ PODS:
   - TPKeyboardAvoiding (1.2.9)
 
 DEPENDENCIES:
+  - JK3DFlapView (from `git@github.com:jayesh15111988/JKFlapView.git`, tag `0.0.2`)
   - JKAutolayoutReadyScrollView (from `git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git`)
   - JKCustomLoader (from `git@github.com:jayesh15111988/JKCustomLoader.git`, branch
     `master`)
@@ -25,6 +45,9 @@ DEPENDENCIES:
   - spacetime
 
 EXTERNAL SOURCES:
+  JK3DFlapView:
+    :git: git@github.com:jayesh15111988/JKFlapView.git
+    :tag: 0.0.2
   JKAutolayoutReadyScrollView:
     :git: git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git
   JKCustomLoader:
@@ -43,6 +66,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/jayesh15111988/JKSexyOptionsOpener
 
 CHECKOUT OPTIONS:
+  JK3DFlapView:
+    :git: git@github.com:jayesh15111988/JKFlapView.git
+    :tag: 0.0.2
   JKAutolayoutReadyScrollView:
     :commit: 990b2d6e03711889bc51ba6ca698e28b2e8b688f
     :git: git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git
@@ -50,7 +76,7 @@ CHECKOUT OPTIONS:
     :commit: 364c5292e15ef4ce1af3e42168f34f1571513219
     :git: git@github.com:jayesh15111988/JKCustomLoader.git
   JKFacebookPrideEffect:
-    :commit: 656018feed4c835be259de2d4f60b7c9974a8847
+    :commit: 2e1b188ac0b166a40734049ecb7f242d8f06c852
     :git: git@github.com:jayesh15111988/JKFacebookPrideEffect.git
   JKFancySignature:
     :commit: f98eb644fe610cdbdad16b8e2df03585a63420a0
@@ -63,14 +89,17 @@ CHECKOUT OPTIONS:
     :git: https://github.com/jayesh15111988/JKSexyOptionsOpener
 
 SPEC CHECKSUMS:
+  AHEasing: 847f583bcd83a2bb850e38ccdb26d22e2593f34d
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  JK3DFlapView: 7c99bd9af062a6d1b1c38a1c253b64d6620e9864
   JKAutolayoutReadyScrollView: 904d57c81dab54bf0bc1c12453e2d61ff7c5279b
-  JKCustomLoader: 62a1463ada06093e1d4accbecf21ad2e3f507308
+  JKCustomLoader: 732f78bab3614037ae8cac8761635d863c423e0a
   JKFacebookPrideEffect: c977154d620d9e3c810abef3de3876202e31de9e
-  JKFancySignature: 2669c5720d12a3bbf8b95cf84044dad000b4ab94
-  JKSecretAnimatingLabel: 8a902dd9c5ff9f4bbd67d1c07061e7d7dfd876f9
-  JKSexyOptionsOpener: ce2dd62a9edfe90fe87d5e4bf5a0bc779c826f1e
+  JKFancySignature: 51d7ed8081bc16983d1c7cc65da852f577f25146
+  JKSecretAnimatingLabel: 16e30e3b3fa7ecb710b414e4e2086af045d56caf
+  JKSexyOptionsOpener: 1e4d50482915410c345654cd66a41e58370ccb96
   SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
   spacetime: 9c25339b7772d8702f09233f83e26f0e8d0efa4c
   TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

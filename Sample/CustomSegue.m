@@ -16,9 +16,9 @@
     UIViewController *src = (UIViewController *)self.sourceViewController;
     DestinationViewController *dest = (DestinationViewController*)self.destinationViewController;
     src.title = @"OSU Football";
-    JKCustomLoader* loader = [[JKCustomLoader alloc] initWithInputView:dest.view andAnimationType:MaskShapeTypeAlphaImage];
+    JKCustomLoader* loader = [[JKCustomLoader alloc] initWithInputView:dest.view andAnimationType:MaskShapeTypeCircle];
     loader.maskImage = [UIImage imageNamed:@"plane1.png"];
-    loader.maskSizeIncrementPerFrame = 10;
+    loader.maskSizeIncrementPerFrame = 20;
     CGRect originalFrame = dest.view.frame;
     originalFrame.origin.y = 64;
     dest.view.frame = originalFrame;

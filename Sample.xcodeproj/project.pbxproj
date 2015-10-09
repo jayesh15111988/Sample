@@ -22,6 +22,10 @@
 		3840D6E91AA281DE0087B006 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3840D6E81AA281DE0087B006 /* Images.xcassets */; };
 		3840D6EC1AA281DE0087B006 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3840D6EA1AA281DE0087B006 /* LaunchScreen.xib */; };
 		3840D6F81AA281DE0087B006 /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3840D6F71AA281DE0087B006 /* SampleTests.m */; };
+		384E5FBF1B8FF3DE00944FA1 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 384E5FBE1B8FF3DE00944FA1 /* ViewControllerOne.m */; };
+		384E5FC21B8FF3E700944FA1 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 384E5FC11B8FF3E700944FA1 /* ViewControllerTwo.m */; };
+		384E5FC51B8FF4CC00944FA1 /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 384E5FC41B8FF4CC00944FA1 /* Animator.m */; };
+		384E5FC81B8FF8DE00944FA1 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 384E5FC71B8FF8DE00944FA1 /* NavigationControllerDelegate.m */; };
 		385FA89C1ABE584600E884DA /* circle_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 385FA89B1ABE584600E884DA /* circle_red.png */; };
 		385FA89E1ABE66D000E884DA /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 385FA89D1ABE66D000E884DA /* red.png */; };
 		3873957C1AC7353000B60872 /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3873957B1AC7353000B60872 /* CustomSegue.m */; };
@@ -75,6 +79,14 @@
 		3840D6F11AA281DE0087B006 /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3840D6F61AA281DE0087B006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3840D6F71AA281DE0087B006 /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		384E5FBD1B8FF3DE00944FA1 /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		384E5FBE1B8FF3DE00944FA1 /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		384E5FC01B8FF3E700944FA1 /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		384E5FC11B8FF3E700944FA1 /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		384E5FC31B8FF4CC00944FA1 /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		384E5FC41B8FF4CC00944FA1 /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		384E5FC61B8FF8DE00944FA1 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		384E5FC71B8FF8DE00944FA1 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
 		385FA89B1ABE584600E884DA /* circle_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_red.png; sourceTree = "<group>"; };
 		385FA89D1ABE66D000E884DA /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		3873957A1AC7353000B60872 /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
@@ -181,6 +193,7 @@
 		3840D6DA1AA281DE0087B006 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				384E5FBC1B8FF3CF00944FA1 /* Custom Transitions */,
 				3837C17E1B7ED23200B59BF1 /* Category */,
 				3835C57C1B7AECA40086F378 /* Protocol Implementation */,
 				382043091B703E24004CCFC2 /* Dynamic Method Resolution */,
@@ -237,6 +250,21 @@
 				3840D6F61AA281DE0087B006 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		384E5FBC1B8FF3CF00944FA1 /* Custom Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				384E5FBD1B8FF3DE00944FA1 /* ViewControllerOne.h */,
+				384E5FBE1B8FF3DE00944FA1 /* ViewControllerOne.m */,
+				384E5FC01B8FF3E700944FA1 /* ViewControllerTwo.h */,
+				384E5FC11B8FF3E700944FA1 /* ViewControllerTwo.m */,
+				384E5FC31B8FF4CC00944FA1 /* Animator.h */,
+				384E5FC41B8FF4CC00944FA1 /* Animator.m */,
+				384E5FC61B8FF8DE00944FA1 /* NavigationControllerDelegate.h */,
+				384E5FC71B8FF8DE00944FA1 /* NavigationControllerDelegate.m */,
+			);
+			name = "Custom Transitions";
 			sourceTree = "<group>";
 		};
 		7C4FDA48C8624A28CD2EF6C4 /* Frameworks */ = {
@@ -406,11 +434,15 @@
 				3840D6E41AA281DE0087B006 /* ViewController.m in Sources */,
 				38C89A391ABA620800A0502C /* CustomView.m in Sources */,
 				38C319EF1B589646008D681A /* AnotherViewController.m in Sources */,
+				384E5FC21B8FF3E700944FA1 /* ViewControllerTwo.m in Sources */,
+				384E5FC81B8FF8DE00944FA1 /* NavigationControllerDelegate.m in Sources */,
 				3840D6E11AA281DE0087B006 /* AppDelegate.m in Sources */,
+				384E5FC51B8FF4CC00944FA1 /* Animator.m in Sources */,
 				3820430C1B703E7C004CCFC2 /* DynamicMethodResolution.m in Sources */,
 				3837C17A1B7ECD2500B59BF1 /* ProtocoloImplementorTwo.m in Sources */,
 				3840D6DE1AA281DE0087B006 /* main.m in Sources */,
 				3873957C1AC7353000B60872 /* CustomSegue.m in Sources */,
+				384E5FBF1B8FF3DE00944FA1 /* ViewControllerOne.m in Sources */,
 				3873957F1AC7377000B60872 /* DestinationViewController.m in Sources */,
 				3889A3BF1B7E99F3002AB47D /* JKSampleProtocolImplementationViewController.m in Sources */,
 			);

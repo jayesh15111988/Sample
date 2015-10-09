@@ -4,47 +4,47 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-JKAutolayoutReadyScrollView.xcscheme</key>
+		<key>AHEasing.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JKCustomLoader.xcscheme</key>
+		<key>BlocksKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JKFacebookPrideEffect.xcscheme</key>
+		<key>JK3DFlapView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JKFancySignature.xcscheme</key>
+		<key>JKAutolayoutReadyScrollView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JKSecretAnimatingLabel.xcscheme</key>
+		<key>JKCustomLoader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JKSexyOptionsOpener.xcscheme</key>
+		<key>JKFacebookPrideEffect.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SAMTextView.xcscheme</key>
+		<key>JKFancySignature.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TPKeyboardAvoiding.xcscheme</key>
+		<key>JKSecretAnimatingLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-spacetime.xcscheme</key>
+		<key>JKSexyOptionsOpener.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -54,55 +54,85 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SAMTextView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>spacetime.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>14EABD9FEB56116288BB0F52</key>
+		<key>101B9FCBCA8D7E63191E588AF46C756A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2F0242849755ABB83C66B404</key>
+		<key>22F7B5131F6EA1624907C5E85A126531</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3EAC0F1A31FB9A2C6103E0DD</key>
+		<key>4AE895A5E006FA6743A592D39D74DE6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6EBACBA9AC91AC1BBF2081D7</key>
+		<key>56292E5FA1E7574A3E0216268E7B646B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>835B0D00A1E85AFC286F162E</key>
+		<key>566A9A688068BF433A41AE86FB0CDDCE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8717458CAB11CAEC217646F1</key>
+		<key>826595D272885F80BB0607EF558E3C28</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AA8ADAE6A4BE4571B03E898D</key>
+		<key>91E663F2EF98B2456128C57F0F2E8490</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B2908CF9F653CFDCBB781840</key>
+		<key>AF02DE907B5FB497D432BE0E8E56F848</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7985C3110916498CF2C9C1F</key>
+		<key>C64D8CB292947DC81BE0B0D9D30E6B3D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E51EAB3D64F460FC0668B617</key>
+		<key>D74B10EB98EDA5FABAC7CD1DA038C735</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E996872835CC180A22A6E106A066C813</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA8EC850F751D2B784A0DC3332720B2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F18C5FF6BF40B2B970BDEED060A87A60</key>
 		<dict>
 			<key>primary</key>
 			<true/>

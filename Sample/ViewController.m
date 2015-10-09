@@ -54,10 +54,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%@ content", self.contentView);
+    
     [self.customSignatureView updateStrokeColorWithColor:[UIColor redColor]];
     [self.customSignatureView updateStrokeSizeWithSize:1.0];
-    
-    
     self.maskSize = 0;
     self.sampleLabel.text = [NSString stringWithFormat:@"Jayesh Sohini Archana Shruti"];
     [self setupAnimationForRedButton];
@@ -65,26 +65,24 @@
     //self.tempView.layer.mask = [self getCustomMaskLayerFromRect:CGRectMake(0, 0, 0, 0)];
     //[self setupAnimationParameters];
     [self customLoaderTest];
+//    NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
+//                                                                      attribute:NSLayoutAttributeLeading
+//                                                                      relatedBy:NSLayoutRelationEqual
+//                                                                         toItem:self.view
+//                                                                      attribute:NSLayoutAttributeLeft
+//                                                                     multiplier:1.0
+//                                                                       constant:0];
+//    [self.view addConstraint:leftConstraint];
+//    
+//    NSLayoutConstraint *rightConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
+//                                                                       attribute:NSLayoutAttributeTrailing
+//                                                                       relatedBy:0
+//                                                                          toItem:self.view
+//                                                                       attribute:NSLayoutAttributeRight
+//                                                                      multiplier:1.0
+//                                                                        constant:0];
+//    [self.view addConstraint:rightConstraint];
     
-    
-    NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
-                                                                      attribute:NSLayoutAttributeLeading
-                                                                      relatedBy:0
-                                                                         toItem:self.view
-                                                                      attribute:NSLayoutAttributeLeft
-                                                                     multiplier:1.0
-                                                                       constant:0];
-    [self.view addConstraint:leftConstraint];
-    
-    NSLayoutConstraint *rightConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
-                                                                       attribute:NSLayoutAttributeTrailing
-                                                                       relatedBy:0
-                                                                          toItem:self.view
-                                                                       attribute:NSLayoutAttributeRight
-                                                                      multiplier:1.0
-                                                                        constant:0];
-    [self.view addConstraint:rightConstraint];
-     
 }
 
 -(void)customLoaderTest {
@@ -105,7 +103,7 @@
     self.bottomSpaceConstraint.constant = self.view.frame.size.height/2 - (20);
     self.trailingEdgeConstraint.constant = self.view.frame.size.width/2 - (36);
     
-    [UIView animateWithDuration:1.0 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         [self.view layoutIfNeeded];
     } completion:^(BOOL finished) {
        

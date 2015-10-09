@@ -6,3 +6,7 @@ pod 'JKFancySignature', :git => 'git@github.com:jayesh15111988/JKFancySignature.
 pod 'JKAutolayoutReadyScrollView', :git => 'git@github.com:jayesh15111988/JKAutolayoutReadyScrollView.git' 
 pod 'JKFacebookPrideEffect', :git => 'git@github.com:jayesh15111988/JKFacebookPrideEffect.git'
 pod 'JKSexyOptionsOpener', :git => 'https://github.com/jayesh15111988/JKSexyOptionsOpener', :branch => 'master'
+pod 'JK3DFlapView', :git => 'git@github.com:jayesh15111988/JKFlapView.git' , :tag => '0.0.2'
+
+
+
